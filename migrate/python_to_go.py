@@ -39,14 +39,15 @@ Output:
 """
 
 
-def convert_python_to_go(python_file: str) -> str:
-    if not os.path.exists(python_file):
-        raise FileNotFoundError(f"Python file not found: {python_file}")
+def convert_python_to_go(python_file: str, code_content: str = None) -> str:
+    if code_content is None:
+        if not os.path.exists(python_file):
+            raise FileNotFoundError(f"Python file not found: {python_file}")
 
-    with open(python_file, "r", encoding="utf-8") as f:
-        py_code = f.read()
+        with open(python_file, "r", encoding="utf-8") as f:
+            code_content = f.read()
 
-    prompt = build_prompt(py_code, python_file)
+    prompt = build_prompt(code_content, python_file)
     go_code = safe_generate(prompt)
 
     return go_code
