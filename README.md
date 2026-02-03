@@ -71,7 +71,8 @@ RAG Pipeline (Retrieve + Generate)
         ↓
 AI Answers / Code Migration
 
-📁 Project Structure
+ Project Structure
+ 
 mini_erp_analyzer/
 │
 ├── Analyzer/                 # AST-based static code analyzer
@@ -102,6 +103,7 @@ mini_erp_analyzer/
 ├── app.py                    # CLI interface
 ├── config.py                 # Configuration
 └── README.md
+
 
 🔄 Core Workflow (Step-by-Step)
 1️⃣ Static Code Analysis
