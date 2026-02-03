@@ -8,4 +8,4 @@ OPENAI_MODEL = "gpt-4o-mini"
 
 EMBED_MODEL = "nomic-embed-text"
 
-LLM_MODEL = "llama3.2"
+LLM_MODEL = "llama3"

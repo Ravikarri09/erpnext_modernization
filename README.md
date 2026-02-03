@@ -257,3 +257,21 @@ Module-Scoped Indexing	✅
 File References	✅
 Streaming Answers	✅
 Python → Go Migration	✅
+Web Interface (Streamlit)	✅
+
+💻 Web User Interface (Streamlit)
+For a more interactive experience, use the Streamlit-based UI.
+
+How to Run:
+python -m streamlit run ui/app.py
+
+Features:
+1. Knowledge Base Chat:
+   - Chat with specific modules (e.g., buying).
+   - View retrieved code chunks for transparency.
+2. Migration Assistant:
+   - Convert Python code to Go side-by-side.
+   - Run & Verify: Execute both versions and compare output.
+   - Analyzer Dashboard: View function statistics for modules.
+
+Note: The "Deploy" button and standard menu are hidden for a cleaner interface.
