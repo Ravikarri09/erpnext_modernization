@@ -1,105 +1,110 @@
-🚀 ERPNext Code Intelligence RAG System
+🚀 Mini ERP Analyzer
+AI-Powered Code Intelligence & Modernization Engine for ERPNext
+📌 Overview
 
-An AI-powered code intelligence platform that understands the ERPNext codebase and answers developer questions using Retrieval-Augmented Generation (RAG).
+mini_erp_analyzer is an AI-powered backend system designed to analyze, understand, and modernize the ERPNext codebase.
 
-This system converts ERPNext’s source code into a searchable knowledge base using static analysis, embeddings, and a vector database — enabling an AI assistant to answer questions directly from the code.
+It provides:
 
-🔍 Problem Statement
+Static code analysis using Python AST
 
-ERPNext is a large Python-based ERP system with thousands of files and complex business logic.
-Understanding workflows like tax calculation, invoice validation, stock updates, and submission logic takes significant time for developers.
+Semantic code search using embeddings
 
-This project solves that by building a code-aware AI assistant that:
+Retrieval-Augmented Generation (RAG) for intelligent Q&A
 
-Understands ERPNext’s internal structure
+Module-specific indexing
 
-Searches relevant code automatically
+Python → Go source code migration
 
-Answers questions with real source-code context
+This tool acts as the core intelligence engine behind ERPNext AI tooling.
 
-🏗 System Architecture
+🎯 Problem Statement
+
+ERPNext is a large and complex ERP system with:
+
+Thousands of Python files
+
+Deeply coupled business logic
+
+Difficult onboarding for new developers
+
+No easy way to ask questions like:
+
+“How does this module work?”
+
+“Where is this logic implemented?”
+
+“What functions are involved?”
+
+Additionally, modernizing ERPNext components (e.g., migrating tools to Go) is manual, risky, and time-consuming.
+
+✅ Solution
+
+mini_erp_analyzer solves this by:
+
+Parsing ERPNext source code into structured metadata
+
+Indexing code semantically using vector embeddings
+
+Enabling natural-language queries using RAG
+
+Allowing module-specific indexing (e.g., buying, accounts)
+
+Supporting AI-assisted Python → Go code migration
+
+🏗 Architecture Overview
 ERPNext Source Code
         ↓
-Static Code Analyzer (AST)
+AST Code Analyzer
         ↓
-Extracted Functions & Classes (JSON)
+Structured Metadata (JSON)
         ↓
 Code Chunking
         ↓
-Embeddings (Ollama)
+Embeddings + FAISS Vector Store
         ↓
-FAISS Vector Database
+RAG Pipeline (Retrieve + Generate)
         ↓
-RAG Pipeline
-        ↓
-AI Assistant
-
-⚙️ Features
-
-🔍 Static code analysis using Python AST
-
-📦 Automatic extraction of:
-
-Functions
-
-Classes
-
-Call relationships
-
-🧠 Semantic embeddings using Ollama
-
-⚡ FAISS vector database for fast search
-
-🤖 RAG-based AI assistant
-
-💬 Natural language querying of ERPNext code
+AI Answers / Code Migration
 
 📁 Project Structure
 mini_erp_analyzer/
 │
-├── Analyzer/              # Static code analyzer
+├── Analyzer/                 # AST-based static code analyzer
 │   └── analyzer.py
 │
-├── data/                 # Extracted and processed data
-│   ├── functions.json
-│   ├── classes.json
-│   ├── calls.json
-│   └── code_chunks.json
-│
-├── rag/                  # RAG pipeline
-│   ├── chunker.py
-│   ├── vector_store.py
+├── rag/                      # RAG pipeline
 │   ├── retriever.py
-│   └── rag_query.py
+│   ├── rag_query.py
+│   ├── chunker.py
+│   └── vector_store.py
 │
-├── llm/                  # LLM & embedding layer
+├── llm/                      # LLM integrations
+│   ├── openai_llm.py
 │   ├── ollama_embed.py
-│   ├── ollama_llm.py
 │   └── safe_generate.py
 │
-├── vector_db/            # FAISS index
-│   └── faiss.index
+├── migrate/                  # Python → Go migration
+│   └── python_to_go.py
 │
-├── config.py
-├── app.py               # Main AI assistant app
+├── data/                     # Extracted metadata & chunks
+│   ├── functions.json
+│   ├── classes.json
+│   └── code_chunks.json
+│
+├── vector_db/                # FAISS indexes
+│
+├── api.py                    # Flask API server
+├── app.py                    # CLI interface
+├── config.py                 # Configuration
 └── README.md
 
-🔧 Tech Stack
+🔄 Core Workflow
+1️⃣ Static Code Analysis
 
-Python
+Uses Python AST
 
-AST (Static Code Parsing)
-
-Ollama (Local Embeddings + LLM)
-
-FAISS (Vector Database)
-
-RAG (Retrieval-Augmented Generation)
-
-🚀 How It Works
-1. Static Code Analysis
-
-ERPNext source code is parsed using Python’s AST module to extract:
+Extracts:
 
 Functions
 
@@ -107,53 +112,118 @@ Classes
 
 Call relationships
 
-2. Chunking
+Output:
 
-Each function is converted into a semantic chunk:
+data/functions.json
+data/classes.json
+data/calls.json
 
-Function validate in erpnext/accounts/sales_invoice.py at line 82
+2️⃣ Code Chunking
 
-3. Embeddings
+Converts structured metadata into readable text chunks
 
-Chunks are embedded using Ollama’s nomic-embed-text model.
+Example:
 
-4. Vector Database
-
-All embeddings are stored in a FAISS index for fast similarity search.
-
-5. RAG Pipeline
-
-When a question is asked:
-
-Relevant chunks are retrieved from FAISS
-
-Context is injected into the LLM prompt
-
-AI generates an answer grounded in real code
-
-▶ Running the Project
-Step 1 — Start Ollama
-ollama serve
+Function validate_invoice in sales_invoice.py at line 213
 
 
-Pull required models:
+Saved as:
 
-ollama pull nomic-embed-text
-ollama pull llama3.2
+data/code_chunks.json
 
-Step 2 — Run Code Analyzer
+3️⃣ Embeddings & Vector Indexing
+
+Each chunk is embedded using an embedding model
+
+Stored in FAISS vector database
+
+Enables semantic search by meaning, not keywords
+
+4️⃣ RAG (Retrieval-Augmented Generation)
+User Question
+   ↓
+Semantic Search (FAISS)
+   ↓
+Relevant ERPNext Code Context
+   ↓
+LLM Reasoning
+   ↓
+Answer with File References
+
+
+This ensures accurate, grounded answers.
+
+5️⃣ Module-Specific Indexing
+
+You can restrict indexing to a specific ERPNext module.
+
+Example:
+
+python rag/chunker.py buying
+python rag/vector_store.py buying
+
+
+This allows:
+
+Faster indexing
+
+Focused answers
+
+Module-level understanding
+
+6️⃣ Python → Go Migration Pipeline
+
+AI-assisted conversion of Python files into Go.
+
+Python File
+   ↓
+LLM-Based Source Translation
+   ↓
+Fully Functional Go File
+
+
+Best suited for:
+
+Static tools
+
+CLI utilities
+
+Analyzers
+
+Background services
+
+🧠 Example Queries
+
+What does the buying module do?
+
+How does invoice validation work?
+
+Which functions update stock?
+
+Explain analyzer workflow
+
+Convert analyzer.py to Go
+
+⚙ How to Run
+Run Analyzer
 python Analyzer/analyzer.py
 
-Step 3 — Create Code Chunks
-python -m rag.chunker
+Build Vector Index
+python rag/chunker.py buying
+python rag/vector_store.py buying
 
-Step 4 — Build Vector Database (Fast Mode)
-python -m rag.vector_store
-
-Step 5 — Run AI Assistant
+Ask Questions (CLI)
 python app.py
 
+Convert Python to Go
+python migrate/python_to_go.py Analyzer/analyzer.py
 
-Ask:
-
-Where is tax calculated in ERPNext?
+🧪 Key Features
+Feature	Status
+AST Parsing	✅
+Semantic Search	✅
+RAG Pipeline	✅
+Module-Scoped Indexing	✅
+File References	✅
+Streaming Answers	✅
+Python → Go Migration	✅
