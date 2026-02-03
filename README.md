@@ -1,22 +1,20 @@
 🚀 Mini ERP Analyzer
+
 AI-Powered Code Intelligence & Modernization Engine for ERPNext
+
 📌 Overview
 
-mini_erp_analyzer is an AI-powered backend system designed to analyze, understand, and modernize the ERPNext codebase.
+Mini ERP Analyzer is an AI-powered backend system designed to analyze, understand, and modernize the ERPNext codebase.
 
-It provides:
+It acts as the core intelligence engine behind ERPNext AI tooling by combining:
 
-Static code analysis using Python AST
+Static code analysis
 
-Semantic code search using embeddings
+Semantic search
 
-Retrieval-Augmented Generation (RAG) for intelligent Q&A
+Retrieval-Augmented Generation (RAG)
 
-Module-specific indexing
-
-Python → Go source code migration
-
-This tool acts as the core intelligence engine behind ERPNext AI tooling.
+AI-assisted code migration
 
 🎯 Problem Statement
 
@@ -26,21 +24,27 @@ Thousands of Python files
 
 Deeply coupled business logic
 
-Difficult onboarding for new developers
+Steep learning curve for new developers
 
-No easy way to ask questions like:
+Common questions are hard to answer:
 
 “How does this module work?”
 
 “Where is this logic implemented?”
 
-“What functions are involved?”
+“Which functions affect stock?”
 
-Additionally, modernizing ERPNext components (e.g., migrating tools to Go) is manual, risky, and time-consuming.
+Additionally, modernizing ERPNext components (e.g., Python → Go) is:
+
+Manual
+
+Risky
+
+Time-consuming
 
 ✅ Solution
 
-mini_erp_analyzer solves this by:
+Mini ERP Analyzer solves this by:
 
 Parsing ERPNext source code into structured metadata
 
@@ -48,9 +52,9 @@ Indexing code semantically using vector embeddings
 
 Enabling natural-language queries using RAG
 
-Allowing module-specific indexing (e.g., buying, accounts)
+Supporting module-specific indexing
 
-Supporting AI-assisted Python → Go code migration
+Providing AI-assisted Python → Go migration
 
 🏗 Architecture Overview
 ERPNext Source Code
@@ -92,14 +96,14 @@ mini_erp_analyzer/
 │   ├── classes.json
 │   └── code_chunks.json
 │
-├── vector_db/                # FAISS indexes
+├── vector_db/                # FAISS vector indexes
 │
 ├── api.py                    # Flask API server
 ├── app.py                    # CLI interface
 ├── config.py                 # Configuration
 └── README.md
 
-🔄 Core Workflow
+🔄 Core Workflow (Step-by-Step)
 1️⃣ Static Code Analysis
 
 Uses Python AST
@@ -112,32 +116,46 @@ Classes
 
 Call relationships
 
-Output:
+Output files:
 
 data/functions.json
 data/classes.json
 data/calls.json
 
+
+Run:
+
+python Analyzer/analyzer.py
+
 2️⃣ Code Chunking
 
-Converts structured metadata into readable text chunks
+Converts extracted metadata into readable text chunks
 
-Example:
+Example chunk:
 
 Function validate_invoice in sales_invoice.py at line 213
 
 
-Saved as:
+Output:
 
 data/code_chunks.json
 
+
+Run (module-specific):
+
+python rag/chunker.py buying
+
 3️⃣ Embeddings & Vector Indexing
 
-Each chunk is embedded using an embedding model
+Each code chunk is converted into embeddings
 
-Stored in FAISS vector database
+Stored in a FAISS vector database
 
 Enables semantic search by meaning, not keywords
+
+Run:
+
+python rag/vector_store.py buying
 
 4️⃣ RAG (Retrieval-Augmented Generation)
 User Question
@@ -151,11 +169,17 @@ LLM Reasoning
 Answer with File References
 
 
-This ensures accurate, grounded answers.
+This ensures:
+
+Accurate answers
+
+Grounded in real ERPNext code
+
+File-level traceability
 
 5️⃣ Module-Specific Indexing
 
-You can restrict indexing to a specific ERPNext module.
+You can restrict analysis to a single ERPNext module.
 
 Example:
 
@@ -163,23 +187,23 @@ python rag/chunker.py buying
 python rag/vector_store.py buying
 
 
-This allows:
+Benefits:
 
 Faster indexing
 
 Focused answers
 
-Module-level understanding
+Better module understanding
 
 6️⃣ Python → Go Migration Pipeline
 
-AI-assisted conversion of Python files into Go.
+AI-assisted conversion of Python files to Go.
 
 Python File
    ↓
-LLM-Based Source Translation
+LLM-Based Translation
    ↓
-Fully Functional Go File
+Go Source File
 
 
 Best suited for:
@@ -192,6 +216,10 @@ Analyzers
 
 Background services
 
+Run:
+
+python migrate/python_to_go.py Analyzer/analyzer.py
+
 🧠 Example Queries
 
 What does the buying module do?
@@ -200,22 +228,22 @@ How does invoice validation work?
 
 Which functions update stock?
 
-Explain analyzer workflow
+Explain the analyzer workflow
 
 Convert analyzer.py to Go
 
-⚙ How to Run
-Run Analyzer
+⚙ How to Run (Quick Start)
+1️⃣ Run Analyzer
 python Analyzer/analyzer.py
 
-Build Vector Index
+2️⃣ Build Vector Index
 python rag/chunker.py buying
 python rag/vector_store.py buying
 
-Ask Questions (CLI)
+3️⃣ Ask Questions (CLI)
 python app.py
 
-Convert Python to Go
+4️⃣ Convert Python to Go
 python migrate/python_to_go.py Analyzer/analyzer.py
 
 🧪 Key Features
