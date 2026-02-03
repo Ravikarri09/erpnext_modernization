@@ -1,0 +1,1807 @@
+[
+  {
+    "name": "update_last_purchase_rate",
+    "file": "erpnext/erpnext\\buying\\utils.py",
+    "line": 14
+  },
+  {
+    "name": "validate_for_items",
+    "file": "erpnext/erpnext\\buying\\utils.py",
+    "line": 49
+  },
+  {
+    "name": "set_stock_levels",
+    "file": "erpnext/erpnext\\buying\\utils.py",
+    "line": 67
+  },
+  {
+    "name": "validate_item_and_get_basic_data",
+    "file": "erpnext/erpnext\\buying\\utils.py",
+    "line": 90
+  },
+  {
+    "name": "validate_stock_item_warehouse",
+    "file": "erpnext/erpnext\\buying\\utils.py",
+    "line": 103
+  },
+  {
+    "name": "check_on_hold_or_closed_status",
+    "file": "erpnext/erpnext\\buying\\utils.py",
+    "line": 112
+  },
+  {
+    "name": "get_linked_material_requests",
+    "file": "erpnext/erpnext\\buying\\utils.py",
+    "line": 120
+  },
+  {
+    "name": "validate",
+    "file": "erpnext/erpnext\\buying\\doctype\\buying_settings\\buying_settings.py",
+    "line": 50
+  },
+  {
+    "name": "before_save",
+    "file": "erpnext/erpnext\\buying\\doctype\\buying_settings\\buying_settings.py",
+    "line": 66
+  },
+  {
+    "name": "check_maintain_same_rate",
+    "file": "erpnext/erpnext\\buying\\doctype\\buying_settings\\buying_settings.py",
+    "line": 69
+  },
+  {
+    "name": "item_last_purchase_rate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 658
+  },
+  {
+    "name": "close_or_unclose_purchase_orders",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 676
+  },
+  {
+    "name": "set_missing_values",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 697
+  },
+  {
+    "name": "make_purchase_receipt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 704
+  },
+  {
+    "name": "make_purchase_invoice",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 768
+  },
+  {
+    "name": "make_purchase_invoice_from_portal",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 773
+  },
+  {
+    "name": "get_mapped_purchase_invoice",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 783
+  },
+  {
+    "name": "get_list_context",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 869
+  },
+  {
+    "name": "update_status",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 886
+  },
+  {
+    "name": "make_inter_company_sales_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 893
+  },
+  {
+    "name": "make_subcontracting_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 900
+  },
+  {
+    "name": "is_po_fully_subcontracted",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 927
+  },
+  {
+    "name": "get_mapped_subcontracting_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 937
+  },
+  {
+    "name": "__init__",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 170
+  },
+  {
+    "name": "onload",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 186
+  },
+  {
+    "name": "before_validate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 189
+  },
+  {
+    "name": "validate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 193
+  },
+  {
+    "name": "set_has_unit_price_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 226
+  },
+  {
+    "name": "validate_with_previous_doc",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 237
+  },
+  {
+    "name": "validate_supplier",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 275
+  },
+  {
+    "name": "validate_minimum_order_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 299
+  },
+  {
+    "name": "validate_bom_for_subcontracting_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 325
+  },
+  {
+    "name": "validate_fg_item_for_subcontracting",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 334
+  },
+  {
+    "name": "get_schedule_dates",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 364
+  },
+  {
+    "name": "get_last_purchase_rate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 372
+  },
+  {
+    "name": "check_on_hold_or_closed_status",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 398
+  },
+  {
+    "name": "update_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 409
+  },
+  {
+    "name": "check_modified_date",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 424
+  },
+  {
+    "name": "update_status",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 434
+  },
+  {
+    "name": "on_submit",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 445
+  },
+  {
+    "name": "on_cancel",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 472
+  },
+  {
+    "name": "update_status_updater",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 510
+  },
+  {
+    "name": "update_status_updater_if_from_pp",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 536
+  },
+  {
+    "name": "update_delivered_qty_in_sales_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 550
+  },
+  {
+    "name": "has_drop_ship_item",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 564
+  },
+  {
+    "name": "is_against_so",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 567
+  },
+  {
+    "name": "is_against_pp",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 570
+  },
+  {
+    "name": "set_received_qty_for_drop_ship_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 573
+  },
+  {
+    "name": "update_reserved_qty_for_subcontract",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 578
+  },
+  {
+    "name": "update_receiving_percentage",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 585
+  },
+  {
+    "name": "set_service_items_for_finished_goods",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 595
+  },
+  {
+    "name": "can_update_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 614
+  },
+  {
+    "name": "update_ordered_qty_in_so_for_removed_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 625
+  },
+  {
+    "name": "auto_create_subcontracting_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 640
+  },
+  {
+    "name": "update_subcontracting_order_status",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 645
+  },
+  {
+    "name": "is_unit_price_row",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 712
+  },
+  {
+    "name": "update_item",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 715
+  },
+  {
+    "name": "select_item",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 723
+  },
+  {
+    "name": "postprocess",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 789
+  },
+  {
+    "name": "update_item",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 800
+  },
+  {
+    "name": "select_item",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 824
+  },
+  {
+    "name": "post_process",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 938
+  },
+  {
+    "name": "get_billed_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 801
+  },
+  {
+    "name": "get_data",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order_dashboard.py",
+    "line": 4
+  },
+  {
+    "name": "create_po_for_sc_testing",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 1334
+  },
+  {
+    "name": "prepare_data_for_internal_transfer",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 1381
+  },
+  {
+    "name": "make_pr_against_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 1424
+  },
+  {
+    "name": "get_same_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 1432
+  },
+  {
+    "name": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 1451
+  },
+  {
+    "name": "create_pr_against_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 1500
+  },
+  {
+    "name": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 1508
+  },
+  {
+    "name": "get_requested_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 1512
+  },
+  {
+    "name": "test_purchase_order_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 32
+  },
+  {
+    "name": "test_purchase_order_zero_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 55
+  },
+  {
+    "name": "test_make_purchase_receipt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 62
+  },
+  {
+    "name": "test_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 70
+  },
+  {
+    "name": "test_ordered_qty_against_pi_with_update_stock",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 99
+  },
+  {
+    "name": "test_update_remove_child_linked_to_mr",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 129
+  },
+  {
+    "name": "test_update_child",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 174
+  },
+  {
+    "name": "test_update_child_adding_new_item",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 205
+  },
+  {
+    "name": "test_update_child_removing_item",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 235
+  },
+  {
+    "name": "test_update_child_perm",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 292
+  },
+  {
+    "name": "test_update_child_with_tax_template",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 314
+  },
+  {
+    "name": "test_update_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 422
+  },
+  {
+    "name": "test_return_against_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 455
+  },
+  {
+    "name": "test_purchase_order_invoice_receipt_workflow",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 495
+  },
+  {
+    "name": "test_make_purchase_invoice",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 524
+  },
+  {
+    "name": "test_purchase_order_on_hold",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 535
+  },
+  {
+    "name": "test_make_purchase_invoice_with_terms",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 544
+  },
+  {
+    "name": "test_warehouse_company_validation",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 569
+  },
+  {
+    "name": "test_uom_integer_validation",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 575
+  },
+  {
+    "name": "test_ordered_qty_for_closing_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 581
+  },
+  {
+    "name": "test_group_same_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 603
+  },
+  {
+    "name": "test_make_po_without_terms",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 619
+  },
+  {
+    "name": "test_po_for_blocked_supplier_all",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 628
+  },
+  {
+    "name": "test_po_for_blocked_supplier_invoices",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 639
+  },
+  {
+    "name": "test_po_for_blocked_supplier_payments",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 650
+  },
+  {
+    "name": "test_po_for_blocked_supplier_payments_with_today_date",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 669
+  },
+  {
+    "name": "test_po_for_blocked_supplier_payments_past_date",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 689
+  },
+  {
+    "name": "test_default_payment_terms",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 709
+  },
+  {
+    "name": "test_terms_are_not_copied_if_automatically_fetch_payment_terms_is_unchecked",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 716
+  },
+  {
+    "name": "test_terms_copied",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 729
+  },
+  {
+    "name": "test_advance_payment_entry_unlink_against_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 743
+  },
+  {
+    "name": "create_account",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 765
+  },
+  {
+    "name": "test_advance_payment_with_separate_party_account_enabled",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 783
+  },
+  {
+    "name": "test_advance_paid_upon_payment_entry_cancellation",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 816
+  },
+  {
+    "name": "test_schedule_date",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 853
+  },
+  {
+    "name": "test_po_optional_blanket_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 867
+  },
+  {
+    "name": "test_blanket_order_on_po_close_and_open",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 885
+  },
+  {
+    "name": "test_payment_terms_are_fetched_when_creating_purchase_invoice",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 910
+  },
+  {
+    "name": "test_internal_transfer_flow",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 932
+  },
+  {
+    "name": "test_variant_item_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 1011
+  },
+  {
+    "name": "test_update_items_for_subcontracting_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 1016
+  },
+  {
+    "name": "test_new_sc_flow",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 1081
+  },
+  {
+    "name": "test_auto_create_subcontracting_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 1149
+  },
+  {
+    "name": "test_purchase_order_advance_payment_status",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 1180
+  },
+  {
+    "name": "test_po_billed_amount_against_return_entry",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 1208
+  },
+  {
+    "name": "test_receive_zero_qty_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 1241
+  },
+  {
+    "name": "test_bill_zero_qty_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 1290
+  },
+  {
+    "name": "test_purchase_invoice_creation_with_partial_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 1315
+  },
+  {
+    "name": "update_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 1025
+  },
+  {
+    "name": "on_doctype_update",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order_item\\purchase_order_item.py",
+    "line": 102
+  },
+  {
+    "name": "send_supplier_emails",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 385
+  },
+  {
+    "name": "check_portal_enabled",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 392
+  },
+  {
+    "name": "get_list_context",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 401
+  },
+  {
+    "name": "make_supplier_quotation_from_rfq",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 418
+  },
+  {
+    "name": "create_supplier_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 458
+  },
+  {
+    "name": "add_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 485
+  },
+  {
+    "name": "create_rfq_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 493
+  },
+  {
+    "name": "get_pdf",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 525
+  },
+  {
+    "name": "get_item_from_material_requests_based_on_supplier",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 548
+  },
+  {
+    "name": "get_supplier_tag",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 603
+  },
+  {
+    "name": "get_rfq_containing_supplier",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 612
+  },
+  {
+    "name": "before_validate",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 67
+  },
+  {
+    "name": "validate",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 72
+  },
+  {
+    "name": "set_has_unit_price_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 84
+  },
+  {
+    "name": "set_data_for_supplier",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 95
+  },
+  {
+    "name": "validate_duplicate_supplier",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 108
+  },
+  {
+    "name": "validate_supplier_list",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 113
+  },
+  {
+    "name": "update_email_id",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 134
+  },
+  {
+    "name": "validate_email_id",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 139
+  },
+  {
+    "name": "on_submit",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 147
+  },
+  {
+    "name": "before_print",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 154
+  },
+  {
+    "name": "on_cancel",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 163
+  },
+  {
+    "name": "get_supplier_email_preview",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 167
+  },
+  {
+    "name": "send_to_supplier",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 178
+  },
+  {
+    "name": "get_link",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 194
+  },
+  {
+    "name": "update_supplier_part_no",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 204
+  },
+  {
+    "name": "update_supplier_contact",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 211
+  },
+  {
+    "name": "link_supplier_contact",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 224
+  },
+  {
+    "name": "update_user_in_supplier",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 247
+  },
+  {
+    "name": "create_user",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 264
+  },
+  {
+    "name": "supplier_rfq_mail",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 280
+  },
+  {
+    "name": "send_email",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 343
+  },
+  {
+    "name": "get_attachments",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 357
+  },
+  {
+    "name": "update_rfq_supplier_status",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 360
+  },
+  {
+    "name": "postprocess",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 419
+  },
+  {
+    "name": "get_data",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation_dashboard.py",
+    "line": 1
+  },
+  {
+    "name": "make_request_for_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "line": 252
+  },
+  {
+    "name": "get_supplier_data",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "line": 289
+  },
+  {
+    "name": "test_rfq_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "line": 25
+  },
+  {
+    "name": "test_rfq_zero_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "line": 35
+  },
+  {
+    "name": "test_quote_status",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "line": 45
+  },
+  {
+    "name": "test_make_supplier_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "line": 60
+  },
+  {
+    "name": "test_make_supplier_quotation_with_taxes",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "line": 79
+  },
+  {
+    "name": "test_make_supplier_quotation_with_special_characters",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "line": 119
+  },
+  {
+    "name": "test_make_supplier_quotation_from_portal",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "line": 138
+  },
+  {
+    "name": "test_make_multi_uom_supplier_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "line": 152
+  },
+  {
+    "name": "test_make_rfq_from_opportunity",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "line": 171
+  },
+  {
+    "name": "test_get_link",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "line": 188
+  },
+  {
+    "name": "test_get_pdf",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "line": 193
+  },
+  {
+    "name": "test_portal_user_with_new_supplier",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "line": 198
+  },
+  {
+    "name": "test_supplier_quotation_from_zero_qty_rfq",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "line": 226
+  },
+  {
+    "name": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "line": 241
+  },
+  {
+    "name": "get_supplier_primary",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "line": 228
+  },
+  {
+    "name": "onload",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "line": 83
+  },
+  {
+    "name": "before_save",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "line": 88
+  },
+  {
+    "name": "load_dashboard_info",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "line": 95
+  },
+  {
+    "name": "autoname",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "line": 99
+  },
+  {
+    "name": "on_update",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "line": 108
+  },
+  {
+    "name": "add_role_for_user",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "line": 112
+  },
+  {
+    "name": "_add_supplier_role",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "line": 116
+  },
+  {
+    "name": "validate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "line": 136
+  },
+  {
+    "name": "get_supplier_group_details",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "line": 150
+  },
+  {
+    "name": "validate_internal_supplier",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "line": 166
+  },
+  {
+    "name": "create_primary_contact",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "line": 187
+  },
+  {
+    "name": "create_primary_address",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "line": 197
+  },
+  {
+    "name": "on_trash",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "line": 209
+  },
+  {
+    "name": "before_rename",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "line": 217
+  },
+  {
+    "name": "after_rename",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "line": 221
+  },
+  {
+    "name": "get_data",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier_dashboard.py",
+    "line": 4
+  },
+  {
+    "name": "create_supplier",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py",
+    "line": 152
+  },
+  {
+    "name": "test_get_supplier_group_details",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py",
+    "line": 18
+  },
+  {
+    "name": "test_supplier_default_payment_terms",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py",
+    "line": 42
+  },
+  {
+    "name": "test_supplier_disabled",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py",
+    "line": 97
+  },
+  {
+    "name": "test_supplier_country",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py",
+    "line": 110
+  },
+  {
+    "name": "test_party_details_tax_category",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py",
+    "line": 124
+  },
+  {
+    "name": "test_portal_user_can_access_supplier_data",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py",
+    "line": 179
+  },
+  {
+    "name": "execute",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\patches\\migrate_supplier_portal_users.py",
+    "line": 8
+  },
+  {
+    "name": "get_portal_user_contacts",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\patches\\migrate_supplier_portal_users.py",
+    "line": 20
+  },
+  {
+    "name": "add_portal_users",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\patches\\migrate_supplier_portal_users.py",
+    "line": 40
+  },
+  {
+    "name": "get_list_context",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 225
+  },
+  {
+    "name": "make_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 243
+  },
+  {
+    "name": "make_purchase_invoice",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 297
+  },
+  {
+    "name": "make_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 318
+  },
+  {
+    "name": "set_expired_status",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 341
+  },
+  {
+    "name": "get_purchased_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 353
+  },
+  {
+    "name": "before_validate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 111
+  },
+  {
+    "name": "validate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 115
+  },
+  {
+    "name": "on_submit",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 130
+  },
+  {
+    "name": "on_cancel",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 134
+  },
+  {
+    "name": "on_trash",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 138
+  },
+  {
+    "name": "set_has_unit_price_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 141
+  },
+  {
+    "name": "validate_with_previous_doc",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 152
+  },
+  {
+    "name": "validate_valid_till",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 167
+  },
+  {
+    "name": "update_rfq_supplier_status",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 171
+  },
+  {
+    "name": "set_missing_values",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 249
+  },
+  {
+    "name": "update_item",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 254
+  },
+  {
+    "name": "select_item",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 257
+  },
+  {
+    "name": "get_data",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation_dashboard.py",
+    "line": 4
+  },
+  {
+    "name": "test_update_child_supplier_quotation_add_item",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py",
+    "line": 16
+  },
+  {
+    "name": "test_update_supplier_quotation_child_rate_disallow",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py",
+    "line": 37
+  },
+  {
+    "name": "test_update_supplier_quotation_child_remove_item",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py",
+    "line": 54
+  },
+  {
+    "name": "test_supplier_quotation_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py",
+    "line": 111
+  },
+  {
+    "name": "test_supplier_quotation_zero_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py",
+    "line": 122
+  },
+  {
+    "name": "test_make_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py",
+    "line": 133
+  },
+  {
+    "name": "test_map_purchase_order_from_zero_qty_supplier_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py",
+    "line": 154
+  },
+  {
+    "name": "get_timeline_data",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "line": 149
+  },
+  {
+    "name": "daterange",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "line": 178
+  },
+  {
+    "name": "refresh_scorecards",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "line": 183
+  },
+  {
+    "name": "make_all_scorecards",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "line": 201
+  },
+  {
+    "name": "get_scorecard_date",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "line": 259
+  },
+  {
+    "name": "make_default_records",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "line": 269
+  },
+  {
+    "name": "validate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "line": 51
+  },
+  {
+    "name": "on_update",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "line": 57
+  },
+  {
+    "name": "validate_standings",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "line": 62
+  },
+  {
+    "name": "validate_criteria_weights",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "line": 83
+  },
+  {
+    "name": "calculate_total_score",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "line": 91
+  },
+  {
+    "name": "update_standing",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "line": 129
+  },
+  {
+    "name": "get_data",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard_dashboard.py",
+    "line": 4
+  },
+  {
+    "name": "make_supplier_scorecard",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\test_supplier_scorecard.py",
+    "line": 22
+  },
+  {
+    "name": "delete_test_scorecards",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\test_supplier_scorecard.py",
+    "line": 35
+  },
+  {
+    "name": "test_create_scorecard",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\test_supplier_scorecard.py",
+    "line": 10
+  },
+  {
+    "name": "test_criteria_weight",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\test_supplier_scorecard.py",
+    "line": 14
+  },
+  {
+    "name": "get_criteria_list",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py",
+    "line": 57
+  },
+  {
+    "name": "get_variables",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py",
+    "line": 71
+  },
+  {
+    "name": "_get_variables",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py",
+    "line": 76
+  },
+  {
+    "name": "validate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py",
+    "line": 31
+  },
+  {
+    "name": "validate_variables",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py",
+    "line": 35
+  },
+  {
+    "name": "validate_formula",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py",
+    "line": 39
+  },
+  {
+    "name": "delete_test_scorecards",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\test_supplier_scorecard_criteria.py",
+    "line": 22
+  },
+  {
+    "name": "test_variables_exist",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\test_supplier_scorecard_criteria.py",
+    "line": 10
+  },
+  {
+    "name": "test_formula_validate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\test_supplier_scorecard_criteria.py",
+    "line": 17
+  },
+  {
+    "name": "import_string_path",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "line": 122
+  },
+  {
+    "name": "make_supplier_scorecard",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "line": 130
+  },
+  {
+    "name": "validate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "line": 43
+  },
+  {
+    "name": "validate_criteria_weights",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "line": 49
+  },
+  {
+    "name": "calculate_variables",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "line": 57
+  },
+  {
+    "name": "calculate_criteria",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "line": 66
+  },
+  {
+    "name": "calculate_score",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "line": 87
+  },
+  {
+    "name": "calculate_weighted_score",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "line": 93
+  },
+  {
+    "name": "get_eval_statement",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "line": 106
+  },
+  {
+    "name": "update_criteria_fields",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "line": 131
+  },
+  {
+    "name": "post_process",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "line": 136
+  },
+  {
+    "name": "get_scoring_standing",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_standing\\supplier_scorecard_standing.py",
+    "line": 35
+  },
+  {
+    "name": "get_standings_list",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_standing\\supplier_scorecard_standing.py",
+    "line": 42
+  },
+  {
+    "name": "get_total_workdays",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 53
+  },
+  {
+    "name": "get_item_workdays",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 59
+  },
+  {
+    "name": "get_total_cost_of_shipments",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 83
+  },
+  {
+    "name": "get_cost_of_delayed_shipments",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 110
+  },
+  {
+    "name": "get_cost_of_on_time_shipments",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 115
+  },
+  {
+    "name": "get_total_days_late",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 148
+  },
+  {
+    "name": "get_on_time_shipments",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 195
+  },
+  {
+    "name": "get_late_shipments",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 228
+  },
+  {
+    "name": "get_total_received",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 233
+  },
+  {
+    "name": "get_total_received_amount",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 259
+  },
+  {
+    "name": "get_total_received_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 285
+  },
+  {
+    "name": "get_total_rejected_amount",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 311
+  },
+  {
+    "name": "get_total_rejected_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 337
+  },
+  {
+    "name": "get_total_accepted_amount",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 363
+  },
+  {
+    "name": "get_total_accepted_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 389
+  },
+  {
+    "name": "get_total_shipments",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 415
+  },
+  {
+    "name": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 441
+  },
+  {
+    "name": "get_invoiced_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 458
+  },
+  {
+    "name": "get_rfq_total_number",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 475
+  },
+  {
+    "name": "get_rfq_total_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 503
+  },
+  {
+    "name": "get_sq_total_number",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 530
+  },
+  {
+    "name": "get_sq_total_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 563
+  },
+  {
+    "name": "get_rfq_response_days",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 596
+  },
+  {
+    "name": "validate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 34
+  },
+  {
+    "name": "validate_path_exists",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 37
+  },
+  {
+    "name": "test_variable_exist",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\test_supplier_scorecard_variable.py",
+    "line": 14
+  },
+  {
+    "name": "test_path_exists",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\test_supplier_scorecard_variable.py",
+    "line": 21
+  },
+  {
+    "name": "execute",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py",
+    "line": 10
+  },
+  {
+    "name": "get_columns",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py",
+    "line": 23
+  },
+  {
+    "name": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py",
+    "line": 148
+  },
+  {
+    "name": "get_supplier_details",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py",
+    "line": 186
+  },
+  {
+    "name": "get_item_details",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py",
+    "line": 197
+  },
+  {
+    "name": "get_purchase_order_details",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py",
+    "line": 205
+  },
+  {
+    "name": "get_chart_data",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py",
+    "line": 248
+  },
+  {
+    "name": "execute",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py",
+    "line": 10
+  },
+  {
+    "name": "get_columns",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py",
+    "line": 16
+  },
+  {
+    "name": "apply_filters_on_query",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py",
+    "line": 130
+  },
+  {
+    "name": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py",
+    "line": 148
+  },
+  {
+    "name": "get_mapped_mr_details",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py",
+    "line": 189
+  },
+  {
+    "name": "get_mapped_pi_records",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py",
+    "line": 241
+  },
+  {
+    "name": "get_mapped_pr_records",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py",
+    "line": 259
+  },
+  {
+    "name": "get_po_entries",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py",
+    "line": 277
+  },
+  {
+    "name": "execute",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_analytics\\purchase_analytics.py",
+    "line": 8
+  },
+  {
+    "name": "execute",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py",
+    "line": 13
+  },
+  {
+    "name": "validate_filters",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py",
+    "line": 32
+  },
+  {
+    "name": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py",
+    "line": 41
+  },
+  {
+    "name": "update_received_amount",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py",
+    "line": 98
+  },
+  {
+    "name": "get_received_amount_data",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py",
+    "line": 105
+  },
+  {
+    "name": "prepare_data",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py",
+    "line": 134
+  },
+  {
+    "name": "prepare_chart_data",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py",
+    "line": 188
+  },
+  {
+    "name": "get_columns",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py",
+    "line": 198
+  },
+  {
+    "name": "execute",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_trends\\purchase_order_trends.py",
+    "line": 10
+  },
+  {
+    "name": "get_chart_data",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_trends\\purchase_order_trends.py",
+    "line": 21
+  },
+  {
+    "name": "execute",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py",
+    "line": 13
+  },
+  {
+    "name": "validate_filters",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py",
+    "line": 28
+  },
+  {
+    "name": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py",
+    "line": 37
+  },
+  {
+    "name": "get_conditions",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py",
+    "line": 80
+  },
+  {
+    "name": "update_qty_columns",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py",
+    "line": 98
+  },
+  {
+    "name": "prepare_data",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py",
+    "line": 104
+  },
+  {
+    "name": "prepare_chart_data",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py",
+    "line": 150
+  },
+  {
+    "name": "get_columns",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py",
+    "line": 181
+  },
+  {
+    "name": "setUp",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py",
+    "line": 17
+  },
+  {
+    "name": "tearDown",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py",
+    "line": 30
+  },
+  {
+    "name": "test_date_range",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py",
+    "line": 33
+  },
+  {
+    "name": "test_ordered_received_material_requests",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py",
+    "line": 40
+  },
+  {
+    "name": "setup_material_request",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py",
+    "line": 48
+  },
+  {
+    "name": "execute",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py",
+    "line": 9
+  },
+  {
+    "name": "get_columns",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py",
+    "line": 19
+  },
+  {
+    "name": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py",
+    "line": 59
+  },
+  {
+    "name": "get_subcontract_orders",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py",
+    "line": 79
+  },
+  {
+    "name": "get_subcontract_order_supplied_item",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py",
+    "line": 95
+  },
+  {
+    "name": "make_subcontracting_receipt_against_sco",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\test_subcontracted_item_to_be_received.py",
+    "line": 77
+  },
+  {
+    "name": "test_pending_and_received_qty",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\test_subcontracted_item_to_be_received.py",
+    "line": 28
+  },
+  {
+    "name": "execute",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py",
+    "line": 9
+  },
+  {
+    "name": "get_columns",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py",
+    "line": 19
+  },
+  {
+    "name": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py",
+    "line": 48
+  },
+  {
+    "name": "get_order_items_to_supply",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py",
+    "line": 62
+  },
+  {
+    "name": "transfer_subcontracted_raw_materials",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\test_subcontracted_raw_materials_to_be_transferred.py",
+    "line": 75
+  },
+  {
+    "name": "test_pending_and_transferred_qty",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\test_subcontracted_raw_materials_to_be_transferred.py",
+    "line": 21
+  },
+  {
+    "name": "execute",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py",
+    "line": 9
+  },
+  {
+    "name": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py",
+    "line": 17
+  },
+  {
+    "name": "get_subcontracted_orders",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py",
+    "line": 29
+  },
+  {
+    "name": "get_filters",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py",
+    "line": 45
+  },
+  {
+    "name": "get_supplied_items",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py",
+    "line": 66
+  },
+  {
+    "name": "prepare_subcontracted_data",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py",
+    "line": 98
+  },
+  {
+    "name": "get_subcontracted_data",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py",
+    "line": 114
+  },
+  {
+    "name": "get_columns",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py",
+    "line": 125
+  },
+  {
+    "name": "execute",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py",
+    "line": 14
+  },
+  {
+    "name": "validate_filters",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py",
+    "line": 29
+  },
+  {
+    "name": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py",
+    "line": 35
+  },
+  {
+    "name": "prepare_data",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py",
+    "line": 88
+  },
+  {
+    "name": "prepare_chart_data",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py",
+    "line": 162
+  },
+  {
+    "name": "get_columns",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py",
+    "line": 191
+  },
+  {
+    "name": "get_message",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py",
+    "line": 286
+  },
+  {
+    "name": "set_default_supplier",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py",
+    "line": 300
+  }
+]

@@ -1,9 +1,9 @@
-from llm.groq_llm import generate as generate_groq
-from llm.ollama_llm import generate as generate_local
+from llm.openai_llm import generate as openai_generate
+from llm.ollama_llm import generate as ollama_generate
 
-def safe_generate(prompt):
+def safe_generate(prompt: str) -> str:
     try:
-        return generate_groq(prompt)
-    except:
-        print("⚠️ Falling back to local Ollama")
-        return generate_local(prompt)
+        return openai_generate(prompt)
+    except Exception as e:
+        print(" OpenAI failed, falling back to Ollama:", e)
+        return ollama_generate(prompt)

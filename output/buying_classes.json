@@ -1,0 +1,187 @@
+[
+  {
+    "name": "BuyingSettings",
+    "file": "erpnext/erpnext\\buying\\doctype\\buying_settings\\buying_settings.py",
+    "line": 11
+  },
+  {
+    "name": "TestBuyingSettings",
+    "file": "erpnext/erpnext\\buying\\doctype\\buying_settings\\test_buying_settings.py",
+    "line": 9
+  },
+  {
+    "name": "CustomerNumberAtSupplier",
+    "file": "erpnext/erpnext\\buying\\doctype\\customer_number_at_supplier\\customer_number_at_supplier.py",
+    "line": 8
+  },
+  {
+    "name": "PurchaseOrder",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "line": 35
+  },
+  {
+    "name": "TestPurchaseOrder",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "line": 31
+  },
+  {
+    "name": "PurchaseOrderItem",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order_item\\purchase_order_item.py",
+    "line": 9
+  },
+  {
+    "name": "PurchaseOrderItemSupplied",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order_item_supplied\\purchase_order_item_supplied.py",
+    "line": 8
+  },
+  {
+    "name": "PurchaseReceiptItemSupplied",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_receipt_item_supplied\\purchase_receipt_item_supplied.py",
+    "line": 8
+  },
+  {
+    "name": "RequestforQuotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "line": 25
+  },
+  {
+    "name": "TestRequestforQuotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "line": 24
+  },
+  {
+    "name": "RequestforQuotationItem",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation_item\\request_for_quotation_item.py",
+    "line": 8
+  },
+  {
+    "name": "RequestforQuotationSupplier",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation_supplier\\request_for_quotation_supplier.py",
+    "line": 8
+  },
+  {
+    "name": "Supplier",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "line": 23
+  },
+  {
+    "name": "TestSupplier",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py",
+    "line": 17
+  },
+  {
+    "name": "TestSupplierPortal",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py",
+    "line": 178
+  },
+  {
+    "name": "SupplierQuotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "line": 18
+  },
+  {
+    "name": "TestPurchaseOrder",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py",
+    "line": 15
+  },
+  {
+    "name": "SupplierQuotationItem",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation_item\\supplier_quotation_item.py",
+    "line": 8
+  },
+  {
+    "name": "SupplierScorecard",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "line": 18
+  },
+  {
+    "name": "TestSupplierScorecard",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\test_supplier_scorecard.py",
+    "line": 9
+  },
+  {
+    "name": "InvalidFormulaVariable",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py",
+    "line": 12
+  },
+  {
+    "name": "SupplierScorecardCriteria",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py",
+    "line": 16
+  },
+  {
+    "name": "TestSupplierScorecardCriteria",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\test_supplier_scorecard_criteria.py",
+    "line": 9
+  },
+  {
+    "name": "SupplierScorecardPeriod",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "line": 16
+  },
+  {
+    "name": "TestSupplierScorecardPeriod",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\test_supplier_scorecard_period.py",
+    "line": 8
+  },
+  {
+    "name": "SupplierScorecardScoringCriteria",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_scoring_criteria\\supplier_scorecard_scoring_criteria.py",
+    "line": 8
+  },
+  {
+    "name": "SupplierScorecardScoringStanding",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_scoring_standing\\supplier_scorecard_scoring_standing.py",
+    "line": 8
+  },
+  {
+    "name": "SupplierScorecardScoringVariable",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_scoring_variable\\supplier_scorecard_scoring_variable.py",
+    "line": 8
+  },
+  {
+    "name": "SupplierScorecardStanding",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_standing\\supplier_scorecard_standing.py",
+    "line": 9
+  },
+  {
+    "name": "TestSupplierScorecardStanding",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_standing\\test_supplier_scorecard_standing.py",
+    "line": 8
+  },
+  {
+    "name": "VariablePathNotFound",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 14
+  },
+  {
+    "name": "SupplierScorecardVariable",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "line": 18
+  },
+  {
+    "name": "TestSupplierScorecardVariable",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\test_supplier_scorecard_variable.py",
+    "line": 13
+  },
+  {
+    "name": "TestProcurementTracker",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\test_procurement_tracker.py",
+    "line": 8
+  },
+  {
+    "name": "TestRequestedItemsToOrderAndReceive",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py",
+    "line": 16
+  },
+  {
+    "name": "TestSubcontractedItemToBeReceived",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\test_subcontracted_item_to_be_received.py",
+    "line": 27
+  },
+  {
+    "name": "TestSubcontractedItemToBeTransferred",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\test_subcontracted_raw_materials_to_be_transferred.py",
+    "line": 20
+  }
+]

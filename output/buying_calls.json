@@ -1,0 +1,4372 @@
+[
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "get_last_purchase_details",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "set_stock_levels",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "validate_item_and_get_basic_data",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "validate_stock_item_warehouse",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "validate_end_of_life",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "cstr",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "cint",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "set",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "get_linked_material_requests",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\utils.py"
+  },
+  {
+    "caller": "check_maintain_same_rate",
+    "callee": "set_by_naming_series",
+    "file": "erpnext/erpnext\\buying\\doctype\\buying_settings\\buying_settings.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "get_last_purchase_details",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "isinstance",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "get_mapped_doc",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "get_mapped_purchase_invoice",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "get_mapped_purchase_invoice",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "isinstance",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "get_mapped_doc",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "get_list_context",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "make_inter_company_transaction",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "get_mapped_doc",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "validate_for_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "validate_against_blanket_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "validate_inter_company_party",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "any",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "cint",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "get_party_account_currency",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "list",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "clear_doctype_notifications",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "update_linked_doc",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "unlink_inter_company_doc",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "any",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "any",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "any",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "set_missing_values",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "get_party_account",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "get_item_defaults",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "get_item_group_defaults",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "is_po_fully_subcontracted",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "get_mapped_subcontracting_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "enumerate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "set",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "isinstance",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "set",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "update_bin_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "msgprint",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "min",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "get_subcontracting_boms_for_finished_goods",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "is_unit_price_row",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "get_billed_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "super",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "super",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "super",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "get_last_purchase_details",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "check_on_hold_or_closed_status",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "super",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "super",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "make_subcontracting_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "update_sco_status",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "enumerate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "cstr",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "get_bin",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "select_item",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "select_item",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "get_link_to_form",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "is_unit_price_row",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "abs",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "abs",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "abs",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "abs",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "Sum",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "str",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_billed_qty",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py"
+  },
+  {
+    "caller": "get_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order_dashboard.py"
+  },
+  {
+    "caller": "get_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order_dashboard.py"
+  },
+  {
+    "caller": "get_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order_dashboard.py"
+  },
+  {
+    "caller": "get_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order_dashboard.py"
+  },
+  {
+    "caller": "get_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order_dashboard.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_subcontracted_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_raw_materials",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_service_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_bom_for_subcontracted_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_internal_customer",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_internal_supplier",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_warehouse",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_warehouse",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_purchase_receipt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_purchase_receipt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_purchase_receipt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_pr_against_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_pr_against_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_pr_against_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pi_from_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_material_request",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_requested_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "update_child_qty_rate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "update_child_qty_rate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_material_request",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_pr_against_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pi_from_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_requested_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "update_child_qty_rate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pr_against_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "update_child_qty_rate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pr_against_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "update_child_qty_rate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "update_child_qty_rate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "update_child_qty_rate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pr_against_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pi_from_pr",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pi_from_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pr_against_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pr_against_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pi_from_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_purchase_receipt_return",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_purchase_invoice_return",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pi_from_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_purchase_receipt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pi_from_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pi_from_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_purchase_receipt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pi_from_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "nowdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pi_from_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pi_from_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_payment_entry",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "nowdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_payment_entry",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_payment_entry",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_blanket_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_blanket_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_payment_terms_template",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_purchase_invoice",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "compare_payment_schedules",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "prepare_data_for_internal_transfer",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_cost_center",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_material_request",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_inter_company_sales_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "today",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_delivery_note",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_inter_company_purchase_receipt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_sales_invoice",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_inter_company_purchase_invoice",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_subcontracted_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_raw_materials",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_service_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_bom_for_subcontracted_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "update_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_subcontracting_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "update_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_po_for_sc_testing",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_subcontracting_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_subcontracting_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_subcontracting_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_subcontracting_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_subcontracted_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_raw_materials",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_service_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_bom_for_subcontracted_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_payment_request",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pi_from_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_debit_note",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_debit_note",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_purchase_receipt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "update_child_qty_rate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_purchase_receipt",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pi_from_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pi_from_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pi_from_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_pi_from_po",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "nowdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "change_settings",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_requested_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_requested_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_requested_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "make_item",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_ordered_qty",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "nowdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "update_child_qty_rate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_payment_entry",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_due_date_from_template",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "nowdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "nowdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "nowdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "nowdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "nowdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "nowdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "nowdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "nowdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_same_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "get_payment_entry",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "update_items",
+    "callee": "nowdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "check_portal_enabled",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "get_list_context",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "get_mapped_doc",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "isinstance",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "download_pdf",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "list",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "validate_for_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "any",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "list",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "get_url",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "get_user_fullname",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "set_missing_values",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "add_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "isinstance",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "create_rfq_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "get_mapped_doc",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "set",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "filter",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "make",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "get_party_details",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "super",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "super",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "set",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "get_attachments",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "get_party_account_currency",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "get_party_account_currency",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "postprocess",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "nowdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_request_for_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_request_for_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_request_for_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_supplier_quotation_from_rfq",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_request_for_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_supplier_quotation_from_rfq",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_supplier_quotation_from_rfq",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_request_for_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_supplier_quotation_from_rfq",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_request_for_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_supplier_quotation_from_rfq",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_request_for_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "create_supplier_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_request_for_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "create_supplier_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_opportunity",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "get_supplier_data",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_rfq",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_request_for_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "urlparse",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_request_for_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "get_pdf",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_request_for_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_request_for_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_supplier_quotation_from_rfq",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_request_for_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "create_supplier_quotation",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "get_supplier_data",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "change_settings",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "check_supplier_has_docname_access",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "make_item",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "test_supplier_quotation_from_zero_qty_rfq_in_portal",
+    "callee": "nowdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py"
+  },
+  {
+    "caller": "after_rename",
+    "callee": "load_address_and_contact",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py"
+  },
+  {
+    "caller": "after_rename",
+    "callee": "get_dashboard_info",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py"
+  },
+  {
+    "caller": "after_rename",
+    "callee": "validate_party_accounts",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py"
+  },
+  {
+    "caller": "after_rename",
+    "callee": "delete_contact_and_address",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py"
+  },
+  {
+    "caller": "after_rename",
+    "callee": "add_role_for_portal_user",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py"
+  },
+  {
+    "caller": "after_rename",
+    "callee": "make_address",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py"
+  },
+  {
+    "caller": "after_rename",
+    "callee": "get_address_display",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py"
+  },
+  {
+    "caller": "after_rename",
+    "callee": "validate_party_currency_before_merging",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py"
+  },
+  {
+    "caller": "after_rename",
+    "callee": "set_name_by_naming_series",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py"
+  },
+  {
+    "caller": "after_rename",
+    "callee": "set_name_from_naming_options",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py"
+  },
+  {
+    "caller": "after_rename",
+    "callee": "msgprint",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py"
+  },
+  {
+    "caller": "after_rename",
+    "callee": "make_contact",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py"
+  },
+  {
+    "caller": "after_rename",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py"
+  },
+  {
+    "caller": "after_rename",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py"
+  },
+  {
+    "caller": "after_rename",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py"
+  },
+  {
+    "caller": "after_rename",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py"
+  },
+  {
+    "caller": "get_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier_dashboard.py"
+  },
+  {
+    "caller": "get_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier_dashboard.py"
+  },
+  {
+    "caller": "get_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier_dashboard.py"
+  },
+  {
+    "caller": "get_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier_dashboard.py"
+  },
+  {
+    "caller": "test_portal_user_can_access_supplier_data",
+    "callee": "get_due_date",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py"
+  },
+  {
+    "caller": "test_portal_user_can_access_supplier_data",
+    "callee": "get_due_date",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py"
+  },
+  {
+    "caller": "test_portal_user_can_access_supplier_data",
+    "callee": "get_due_date",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py"
+  },
+  {
+    "caller": "test_portal_user_can_access_supplier_data",
+    "callee": "get_due_date",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py"
+  },
+  {
+    "caller": "test_portal_user_can_access_supplier_data",
+    "callee": "get_due_date",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py"
+  },
+  {
+    "caller": "test_portal_user_can_access_supplier_data",
+    "callee": "get_due_date",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py"
+  },
+  {
+    "caller": "test_portal_user_can_access_supplier_data",
+    "callee": "get_due_date",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py"
+  },
+  {
+    "caller": "test_portal_user_can_access_supplier_data",
+    "callee": "get_due_date",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py"
+  },
+  {
+    "caller": "test_portal_user_can_access_supplier_data",
+    "callee": "get_due_date",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py"
+  },
+  {
+    "caller": "test_portal_user_can_access_supplier_data",
+    "callee": "create_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py"
+  },
+  {
+    "caller": "test_portal_user_can_access_supplier_data",
+    "callee": "get_party_details",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py"
+  },
+  {
+    "caller": "test_portal_user_can_access_supplier_data",
+    "callee": "get_party_details",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py"
+  },
+  {
+    "caller": "test_portal_user_can_access_supplier_data",
+    "callee": "create_supplier",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py"
+  },
+  {
+    "caller": "test_portal_user_can_access_supplier_data",
+    "callee": "get_customers_suppliers",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py"
+  },
+  {
+    "caller": "test_portal_user_can_access_supplier_data",
+    "callee": "dict",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py"
+  },
+  {
+    "caller": "add_portal_users",
+    "callee": "get_portal_user_contacts",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\patches\\migrate_supplier_portal_users.py"
+  },
+  {
+    "caller": "add_portal_users",
+    "callee": "add_portal_users",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\patches\\migrate_supplier_portal_users.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "get_list_context",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "isinstance",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "get_mapped_doc",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "get_mapped_doc",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "get_mapped_doc",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "validate_status",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "validate_for_items",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "any",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "set",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "nowdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "super",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "super",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "sum",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "select_item",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py"
+  },
+  {
+    "caller": "get_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation_dashboard.py"
+  },
+  {
+    "caller": "get_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation_dashboard.py"
+  },
+  {
+    "caller": "get_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation_dashboard.py"
+  },
+  {
+    "caller": "test_map_purchase_order_from_zero_qty_supplier_quotation",
+    "callee": "update_child_qty_rate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py"
+  },
+  {
+    "caller": "test_map_purchase_order_from_zero_qty_supplier_quotation",
+    "callee": "make_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py"
+  },
+  {
+    "caller": "test_map_purchase_order_from_zero_qty_supplier_quotation",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py"
+  },
+  {
+    "caller": "test_map_purchase_order_from_zero_qty_supplier_quotation",
+    "callee": "update_child_qty_rate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py"
+  },
+  {
+    "caller": "test_map_purchase_order_from_zero_qty_supplier_quotation",
+    "callee": "update_child_qty_rate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py"
+  },
+  {
+    "caller": "test_map_purchase_order_from_zero_qty_supplier_quotation",
+    "callee": "make_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py"
+  },
+  {
+    "caller": "test_map_purchase_order_from_zero_qty_supplier_quotation",
+    "callee": "make_purchase_order",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py"
+  },
+  {
+    "caller": "test_map_purchase_order_from_zero_qty_supplier_quotation",
+    "callee": "today",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py"
+  },
+  {
+    "caller": "test_map_purchase_order_from_zero_qty_supplier_quotation",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py"
+  },
+  {
+    "caller": "test_map_purchase_order_from_zero_qty_supplier_quotation",
+    "callee": "change_settings",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py"
+  },
+  {
+    "caller": "test_map_purchase_order_from_zero_qty_supplier_quotation",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py"
+  },
+  {
+    "caller": "test_map_purchase_order_from_zero_qty_supplier_quotation",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py"
+  },
+  {
+    "caller": "test_map_purchase_order_from_zero_qty_supplier_quotation",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py"
+  },
+  {
+    "caller": "test_map_purchase_order_from_zero_qty_supplier_quotation",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py"
+  },
+  {
+    "caller": "test_map_purchase_order_from_zero_qty_supplier_quotation",
+    "callee": "today",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "range",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "get_scorecard_date",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "make_all_scorecards",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "daterange",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "nowdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "get_scorecard_date",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "throw",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "throw",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "round",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "int",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "make_all_scorecards",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "make_supplier_scorecard",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "get_last_day",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "str",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "str",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "timedelta",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "str",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "add_years",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "throw",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "str",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "update_standing",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py"
+  },
+  {
+    "caller": "get_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard_dashboard.py"
+  },
+  {
+    "caller": "get_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard_dashboard.py"
+  },
+  {
+    "caller": "test_criteria_weight",
+    "callee": "make_supplier_scorecard",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\test_supplier_scorecard.py"
+  },
+  {
+    "caller": "test_criteria_weight",
+    "callee": "delete_test_scorecards",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\test_supplier_scorecard.py"
+  },
+  {
+    "caller": "test_criteria_weight",
+    "callee": "make_supplier_scorecard",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\test_supplier_scorecard.py"
+  },
+  {
+    "caller": "test_criteria_weight",
+    "callee": "make_supplier_scorecard",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\test_supplier_scorecard.py"
+  },
+  {
+    "caller": "validate_formula",
+    "callee": "_get_variables",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py"
+  },
+  {
+    "caller": "validate_formula",
+    "callee": "enumerate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py"
+  },
+  {
+    "caller": "validate_formula",
+    "callee": "_get_variables",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py"
+  },
+  {
+    "caller": "validate_formula",
+    "callee": "enumerate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py"
+  },
+  {
+    "caller": "validate_formula",
+    "callee": "range",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py"
+  },
+  {
+    "caller": "validate_formula",
+    "callee": "range",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py"
+  },
+  {
+    "caller": "validate_formula",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py"
+  },
+  {
+    "caller": "validate_formula",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py"
+  },
+  {
+    "caller": "validate_formula",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py"
+  },
+  {
+    "caller": "validate_formula",
+    "callee": "str",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py"
+  },
+  {
+    "caller": "validate_formula",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py"
+  },
+  {
+    "caller": "test_formula_validate",
+    "callee": "delete_test_scorecards",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\test_supplier_scorecard_criteria.py"
+  },
+  {
+    "caller": "test_formula_validate",
+    "callee": "delete_test_scorecards",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\test_supplier_scorecard_criteria.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "__import__",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "get_mapped_doc",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "getattr",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "throw",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "get_variables",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "import_string_path",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "method_to_call",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "getattr",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "method_to_call",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "min",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "max",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py"
+  },
+  {
+    "caller": "post_process",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py"
+  },
+  {
+    "caller": "validate_path_exists",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py"
+  },
+  {
+    "caller": "validate_path_exists",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py"
+  },
+  {
+    "caller": "validate_path_exists",
+    "callee": "get_total_cost_of_shipments",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py"
+  },
+  {
+    "caller": "validate_path_exists",
+    "callee": "get_cost_of_on_time_shipments",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py"
+  },
+  {
+    "caller": "validate_path_exists",
+    "callee": "get_total_shipments",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py"
+  },
+  {
+    "caller": "validate_path_exists",
+    "callee": "get_on_time_shipments",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py"
+  },
+  {
+    "caller": "validate_path_exists",
+    "callee": "import_string_path",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py"
+  },
+  {
+    "caller": "validate_path_exists",
+    "callee": "hasattr",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py"
+  },
+  {
+    "caller": "validate_path_exists",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py"
+  },
+  {
+    "caller": "validate_path_exists",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py"
+  },
+  {
+    "caller": "validate_path_exists",
+    "callee": "Sum",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py"
+  },
+  {
+    "caller": "validate_path_exists",
+    "callee": "Sum",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "get_columns",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "get_chart_data",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "get_descendants_of",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "get_supplier_details",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "get_item_details",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "get_purchase_order_details",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "tuple",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "sorted",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "get_columns",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "get_po_entries",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "get_mapped_mr_details",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "get_mapped_pr_records",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "get_mapped_pi_records",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "apply_filters_on_query",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "apply_filters_on_query",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "dict",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "get_po_entries",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py"
+  },
+  {
+    "caller": "execute",
+    "callee": "Analytics",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_analytics\\purchase_analytics.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "validate_filters",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "get_columns",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "update_received_amount",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "prepare_data",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "get_received_amount_data",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "prepare_chart_data",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "date_diff",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "min",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Sum",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Sum",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "IfNull",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "IfNull",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "IfNull",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "get_columns",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_trends\\purchase_order_trends.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_trends\\purchase_order_trends.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "get_chart_data",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_trends\\purchase_order_trends.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_trends\\purchase_order_trends.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "range",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_trends\\purchase_order_trends.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_trends\\purchase_order_trends.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_trends\\purchase_order_trends.py"
+  },
+  {
+    "caller": "get_chart_data",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_trends\\purchase_order_trends.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "validate_filters",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "get_columns",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "prepare_data",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "get_conditions",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "prepare_chart_data",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "cint",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "dict",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "date_diff",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "update_qty_columns",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "min",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "update_qty_columns",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "list",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "getdate",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Sum",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Sum",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Coalesce",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Coalesce",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Sum",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Sum",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Sum",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Coalesce",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Coalesce",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Coalesce",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Coalesce",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Sum",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Sum",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Coalesce",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Sum",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Sum",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Coalesce",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Coalesce",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Coalesce",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "Coalesce",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "setup_material_request",
+    "callee": "create_item",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "setup_material_request",
+    "callee": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "setup_material_request",
+    "callee": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "setup_material_request",
+    "callee": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "setup_material_request",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "setup_material_request",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "setup_material_request",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "setup_material_request",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "setup_material_request",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "setup_material_request",
+    "callee": "today",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "setup_material_request",
+    "callee": "make_purchase_order",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "setup_material_request",
+    "callee": "today",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "setup_material_request",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "setup_material_request",
+    "callee": "make_purchase_receipt",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "setup_material_request",
+    "callee": "today",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "setup_material_request",
+    "callee": "add_days",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "setup_material_request",
+    "callee": "today",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py"
+  },
+  {
+    "caller": "get_subcontract_order_supplied_item",
+    "callee": "get_columns",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "get_subcontract_order_supplied_item",
+    "callee": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "get_subcontract_order_supplied_item",
+    "callee": "get_subcontract_orders",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "get_subcontract_order_supplied_item",
+    "callee": "get_subcontract_order_supplied_item",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "get_subcontract_order_supplied_item",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "get_subcontract_order_supplied_item",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "get_subcontract_order_supplied_item",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "get_subcontract_order_supplied_item",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "get_subcontract_order_supplied_item",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "get_subcontract_order_supplied_item",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "get_subcontract_order_supplied_item",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "get_subcontract_order_supplied_item",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "get_subcontract_order_supplied_item",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "test_pending_and_received_qty",
+    "callee": "make_subcontracting_receipt",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\test_subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "test_pending_and_received_qty",
+    "callee": "make_service_item",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\test_subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "test_pending_and_received_qty",
+    "callee": "get_subcontracting_order",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\test_subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "test_pending_and_received_qty",
+    "callee": "get_rm_items",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\test_subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "test_pending_and_received_qty",
+    "callee": "make_stock_in_entry",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\test_subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "test_pending_and_received_qty",
+    "callee": "make_stock_transfer_entry",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\test_subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "test_pending_and_received_qty",
+    "callee": "make_subcontracting_receipt_against_sco",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\test_subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "test_pending_and_received_qty",
+    "callee": "execute",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\test_subcontracted_item_to_be_received.py"
+  },
+  {
+    "caller": "get_order_items_to_supply",
+    "callee": "get_columns",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "get_order_items_to_supply",
+    "callee": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "get_order_items_to_supply",
+    "callee": "get_order_items_to_supply",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "get_order_items_to_supply",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "get_order_items_to_supply",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "get_order_items_to_supply",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "get_order_items_to_supply",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "get_order_items_to_supply",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "get_order_items_to_supply",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "get_order_items_to_supply",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "get_order_items_to_supply",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "test_pending_and_transferred_qty",
+    "callee": "make_service_item",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\test_subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "test_pending_and_transferred_qty",
+    "callee": "get_subcontracting_order",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\test_subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "test_pending_and_transferred_qty",
+    "callee": "make_stock_entry",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\test_subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "test_pending_and_transferred_qty",
+    "callee": "make_stock_entry",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\test_subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "test_pending_and_transferred_qty",
+    "callee": "transfer_subcontracted_raw_materials",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\test_subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "test_pending_and_transferred_qty",
+    "callee": "execute",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\test_subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "test_pending_and_transferred_qty",
+    "callee": "sorted",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\test_subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "test_pending_and_transferred_qty",
+    "callee": "make_rm_stock_entry",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\test_subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "test_pending_and_transferred_qty",
+    "callee": "len",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\test_subcontracted_raw_materials_to_be_transferred.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "get_columns",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "get_subcontracted_orders",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "get_filters",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "get_supplied_items",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "prepare_subcontracted_data",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "get_subcontracted_data",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "enumerate",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py"
+  },
+  {
+    "caller": "get_columns",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "validate_filters",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "get_columns",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "get_data",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "prepare_data",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "get_message",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "defaultdict",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "list",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "list",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "list",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "cint",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "set",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "set",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "set",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "prepare_chart_data",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "min",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "flt",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "str",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  },
+  {
+    "caller": "set_default_supplier",
+    "callee": "_",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py"
+  }
+]

@@ -1,8 +1,9 @@
 import os
 import ast
 import json
+import sys
 
-ERP_CODE_FOLDER = "erpnext/erpnext"
+BASE_ERP_PATH = "erpnext/erpnext"
 OUTPUT_FOLDER = "output"
 
 functions_data = []
@@ -11,19 +12,18 @@ calls_data = []
 
 
 def analyze_file(file_path):
-    with open(file_path, "r", encoding="utf-8") as f:
-        code = f.read()
-
     try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            code = f.read()
+
         tree = ast.parse(code)
-    except:
+    except Exception:
         return
 
     current_function = None
 
     for node in ast.walk(tree):
 
-        # Extract functions
         if isinstance(node, ast.FunctionDef):
             functions_data.append({
                 "name": node.name,
@@ -32,60 +32,67 @@ def analyze_file(file_path):
             })
             current_function = node.name
 
-        # Extract classes
-        if isinstance(node, ast.ClassDef):
+        elif isinstance(node, ast.ClassDef):
             classes_data.append({
                 "name": node.name,
                 "file": file_path,
                 "line": node.lineno
             })
 
-        # Detect function calls
-        if isinstance(node, ast.Call):
-            if isinstance(node.func, ast.Name):
-                called_function = node.func.id
-
-                if current_function:
-                    calls_data.append({
-                        "caller": current_function,
-                        "callee": called_function,
-                        "file": file_path
-                    })
-print("\n🔍 Scanning folder:", ERP_CODE_FOLDER)
-
-for root, dirs, files in os.walk(ERP_CODE_FOLDER):
-    print("📂 Entering:", root)
-
-    for file in files:
-        if file.endswith(".py"):
-            filepath = os.path.join(root, file)
-            print("   📄 Reading:", filepath)
-            analyze_file(filepath)
+        elif isinstance(node, ast.Call) and isinstance(node.func, ast.Name):
+            if current_function:
+                calls_data.append({
+                    "caller": current_function,
+                    "callee": node.func.id,
+                    "file": file_path
+                })
 
 
-print("\n🔍 Analyzing ERPNext codebase...\n")
+def analyze_module(module_name):
+    module_path = os.path.join(BASE_ERP_PATH, module_name)
 
-for root, dirs, files in os.walk(ERP_CODE_FOLDER):
-    for file in files:
-        if file.endswith(".py"):
-            filepath = os.path.join(root, file)
-            analyze_file(filepath)
+    if not os.path.exists(module_path):
+        print(f"Module not found: {module_name}")
+        sys.exit(1)
 
-# Save results
-with open(os.path.join(OUTPUT_FOLDER, "functions.json"), "w") as f:
-    json.dump(functions_data, f, indent=4)
+    print(f"\n🔍 Analyzing ERPNext module: {module_name}\n")
 
-with open(os.path.join(OUTPUT_FOLDER, "classes.json"), "w") as f:
-    json.dump(classes_data, f, indent=4)
-
-with open(os.path.join(OUTPUT_FOLDER, "calls.json"), "w") as f:
-    json.dump(calls_data, f, indent=4)
+    for root, _, files in os.walk(module_path):
+        for file in files:
+            if file.endswith(".py"):
+                analyze_file(os.path.join(root, file))
 
 
-print("===================================")
-print("✅ Analysis Complete!")
-print("Functions found:", len(functions_data))
-print("Classes found:", len(classes_data))
-print("Call relationships found:", len(calls_data))
-print("📁 Output saved in /output folder")
-print("===================================")
+def save_output(module_name):
+    os.makedirs(OUTPUT_FOLDER, exist_ok=True)
+
+    with open(f"{OUTPUT_FOLDER}/{module_name}_functions.json", "w") as f:
+        json.dump(functions_data, f, indent=2)
+
+    with open(f"{OUTPUT_FOLDER}/{module_name}_classes.json", "w") as f:
+        json.dump(classes_data, f, indent=2)
+
+    with open(f"{OUTPUT_FOLDER}/{module_name}_calls.json", "w") as f:
+        json.dump(calls_data, f, indent=2)
+
+
+if __name__ == "__main__":
+
+    if len(sys.argv) < 2:
+        print(" Please provide a module name")
+        print(" Example: python analyzer.py accounts")
+        sys.exit(1)
+
+    module = sys.argv[1]
+
+    analyze_module(module)
+    save_output(module)
+
+    print("\n===================================")
+    print(" Analysis Complete!")
+    print(" Module:", module)
+    print(" Functions found:", len(functions_data))
+    print(" Classes found:", len(classes_data))
+    print(" Call relationships:", len(calls_data))
+    print(" Output saved in /output folder")
+    print("===================================")

@@ -1,0 +1,1807 @@
+[
+  {
+    "text": "Function update_last_purchase_rate in erpnext/erpnext\\buying\\utils.py at line 14",
+    "file": "erpnext/erpnext\\buying\\utils.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_for_items in erpnext/erpnext\\buying\\utils.py at line 49",
+    "file": "erpnext/erpnext\\buying\\utils.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function set_stock_levels in erpnext/erpnext\\buying\\utils.py at line 67",
+    "file": "erpnext/erpnext\\buying\\utils.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_item_and_get_basic_data in erpnext/erpnext\\buying\\utils.py at line 90",
+    "file": "erpnext/erpnext\\buying\\utils.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_stock_item_warehouse in erpnext/erpnext\\buying\\utils.py at line 103",
+    "file": "erpnext/erpnext\\buying\\utils.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function check_on_hold_or_closed_status in erpnext/erpnext\\buying\\utils.py at line 112",
+    "file": "erpnext/erpnext\\buying\\utils.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_linked_material_requests in erpnext/erpnext\\buying\\utils.py at line 120",
+    "file": "erpnext/erpnext\\buying\\utils.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate in erpnext/erpnext\\buying\\doctype\\buying_settings\\buying_settings.py at line 50",
+    "file": "erpnext/erpnext\\buying\\doctype\\buying_settings\\buying_settings.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function before_save in erpnext/erpnext\\buying\\doctype\\buying_settings\\buying_settings.py at line 66",
+    "file": "erpnext/erpnext\\buying\\doctype\\buying_settings\\buying_settings.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function check_maintain_same_rate in erpnext/erpnext\\buying\\doctype\\buying_settings\\buying_settings.py at line 69",
+    "file": "erpnext/erpnext\\buying\\doctype\\buying_settings\\buying_settings.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function item_last_purchase_rate in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 658",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function close_or_unclose_purchase_orders in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 676",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function set_missing_values in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 697",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function make_purchase_receipt in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 704",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function make_purchase_invoice in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 768",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function make_purchase_invoice_from_portal in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 773",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_mapped_purchase_invoice in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 783",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_list_context in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 869",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_status in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 886",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function make_inter_company_sales_order in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 893",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function make_subcontracting_order in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 900",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function is_po_fully_subcontracted in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 927",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_mapped_subcontracting_order in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 937",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function __init__ in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 170",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function onload in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 186",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function before_validate in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 189",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 193",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function set_has_unit_price_items in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 226",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_with_previous_doc in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 237",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_supplier in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 275",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_minimum_order_qty in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 299",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_bom_for_subcontracting_items in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 325",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_fg_item_for_subcontracting in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 334",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_schedule_dates in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 364",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_last_purchase_rate in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 372",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function check_on_hold_or_closed_status in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 398",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_ordered_qty in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 409",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function check_modified_date in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 424",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_status in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 434",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function on_submit in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 445",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function on_cancel in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 472",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_status_updater in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 510",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_status_updater_if_from_pp in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 536",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_delivered_qty_in_sales_order in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 550",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function has_drop_ship_item in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 564",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function is_against_so in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 567",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function is_against_pp in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 570",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function set_received_qty_for_drop_ship_items in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 573",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_reserved_qty_for_subcontract in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 578",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_receiving_percentage in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 585",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function set_service_items_for_finished_goods in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 595",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function can_update_items in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 614",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_ordered_qty_in_so_for_removed_items in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 625",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function auto_create_subcontracting_order in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 640",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_subcontracting_order_status in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 645",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function is_unit_price_row in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 712",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_item in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 715",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function select_item in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 723",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function postprocess in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 789",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_item in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 800",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function select_item in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 824",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function post_process in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 938",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_billed_qty in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py at line 801",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_data in erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order_dashboard.py at line 4",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\purchase_order_dashboard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function create_po_for_sc_testing in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 1334",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function prepare_data_for_internal_transfer in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 1381",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function make_pr_against_po in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 1424",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_same_items in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 1432",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function create_purchase_order in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 1451",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function create_pr_against_po in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 1500",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_ordered_qty in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 1508",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_requested_qty in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 1512",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_purchase_order_qty in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 32",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_purchase_order_zero_qty in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 55",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_make_purchase_receipt in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 62",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_ordered_qty in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 70",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_ordered_qty_against_pi_with_update_stock in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 99",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_update_remove_child_linked_to_mr in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 129",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_update_child in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 174",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_update_child_adding_new_item in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 205",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_update_child_removing_item in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 235",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_update_child_perm in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 292",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_update_child_with_tax_template in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 314",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_update_qty in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 422",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_return_against_purchase_order in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 455",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_purchase_order_invoice_receipt_workflow in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 495",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_make_purchase_invoice in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 524",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_purchase_order_on_hold in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 535",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_make_purchase_invoice_with_terms in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 544",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_warehouse_company_validation in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 569",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_uom_integer_validation in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 575",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_ordered_qty_for_closing_po in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 581",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_group_same_items in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 603",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_make_po_without_terms in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 619",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_po_for_blocked_supplier_all in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 628",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_po_for_blocked_supplier_invoices in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 639",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_po_for_blocked_supplier_payments in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 650",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_po_for_blocked_supplier_payments_with_today_date in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 669",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_po_for_blocked_supplier_payments_past_date in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 689",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_default_payment_terms in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 709",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_terms_are_not_copied_if_automatically_fetch_payment_terms_is_unchecked in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 716",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_terms_copied in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 729",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_advance_payment_entry_unlink_against_purchase_order in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 743",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function create_account in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 765",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_advance_payment_with_separate_party_account_enabled in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 783",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_advance_paid_upon_payment_entry_cancellation in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 816",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_schedule_date in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 853",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_po_optional_blanket_order in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 867",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_blanket_order_on_po_close_and_open in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 885",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_payment_terms_are_fetched_when_creating_purchase_invoice in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 910",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_internal_transfer_flow in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 932",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_variant_item_po in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 1011",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_update_items_for_subcontracting_purchase_order in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 1016",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_new_sc_flow in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 1081",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_auto_create_subcontracting_order in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 1149",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_purchase_order_advance_payment_status in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 1180",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_po_billed_amount_against_return_entry in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 1208",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_receive_zero_qty_purchase_order in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 1241",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_bill_zero_qty_purchase_order in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 1290",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_purchase_invoice_creation_with_partial_qty in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 1315",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_items in erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py at line 1025",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order\\test_purchase_order.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function on_doctype_update in erpnext/erpnext\\buying\\doctype\\purchase_order_item\\purchase_order_item.py at line 102",
+    "file": "erpnext/erpnext\\buying\\doctype\\purchase_order_item\\purchase_order_item.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function send_supplier_emails in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 385",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function check_portal_enabled in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 392",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_list_context in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 401",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function make_supplier_quotation_from_rfq in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 418",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function create_supplier_quotation in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 458",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function add_items in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 485",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function create_rfq_items in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 493",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_pdf in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 525",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_item_from_material_requests_based_on_supplier in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 548",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_supplier_tag in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 603",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_rfq_containing_supplier in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 612",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function before_validate in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 67",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 72",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function set_has_unit_price_items in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 84",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function set_data_for_supplier in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 95",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_duplicate_supplier in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 108",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_supplier_list in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 113",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_email_id in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 134",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_email_id in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 139",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function on_submit in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 147",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function before_print in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 154",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function on_cancel in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 163",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_supplier_email_preview in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 167",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function send_to_supplier in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 178",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_link in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 194",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_supplier_part_no in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 204",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_supplier_contact in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 211",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function link_supplier_contact in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 224",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_user_in_supplier in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 247",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function create_user in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 264",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function supplier_rfq_mail in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 280",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function send_email in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 343",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_attachments in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 357",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_rfq_supplier_status in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 360",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function postprocess in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py at line 419",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_data in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation_dashboard.py at line 1",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\request_for_quotation_dashboard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function make_request_for_quotation in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py at line 252",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_supplier_data in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py at line 289",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_rfq_qty in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py at line 25",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_rfq_zero_qty in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py at line 35",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_quote_status in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py at line 45",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_make_supplier_quotation in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py at line 60",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_make_supplier_quotation_with_taxes in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py at line 79",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_make_supplier_quotation_with_special_characters in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py at line 119",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_make_supplier_quotation_from_portal in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py at line 138",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_make_multi_uom_supplier_quotation in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py at line 152",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_make_rfq_from_opportunity in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py at line 171",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_get_link in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py at line 188",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_get_pdf in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py at line 193",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_portal_user_with_new_supplier in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py at line 198",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_supplier_quotation_from_zero_qty_rfq in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py at line 226",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_supplier_quotation_from_zero_qty_rfq_in_portal in erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py at line 241",
+    "file": "erpnext/erpnext\\buying\\doctype\\request_for_quotation\\test_request_for_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_supplier_primary in erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py at line 228",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function onload in erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py at line 83",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function before_save in erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py at line 88",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function load_dashboard_info in erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py at line 95",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function autoname in erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py at line 99",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function on_update in erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py at line 108",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function add_role_for_user in erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py at line 112",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function _add_supplier_role in erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py at line 116",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate in erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py at line 136",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_supplier_group_details in erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py at line 150",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_internal_supplier in erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py at line 166",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function create_primary_contact in erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py at line 187",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function create_primary_address in erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py at line 197",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function on_trash in erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py at line 209",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function before_rename in erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py at line 217",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function after_rename in erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py at line 221",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_data in erpnext/erpnext\\buying\\doctype\\supplier\\supplier_dashboard.py at line 4",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\supplier_dashboard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function create_supplier in erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py at line 152",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_get_supplier_group_details in erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py at line 18",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_supplier_default_payment_terms in erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py at line 42",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_supplier_disabled in erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py at line 97",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_supplier_country in erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py at line 110",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_party_details_tax_category in erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py at line 124",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_portal_user_can_access_supplier_data in erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py at line 179",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\test_supplier.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function execute in erpnext/erpnext\\buying\\doctype\\supplier\\patches\\migrate_supplier_portal_users.py at line 8",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\patches\\migrate_supplier_portal_users.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_portal_user_contacts in erpnext/erpnext\\buying\\doctype\\supplier\\patches\\migrate_supplier_portal_users.py at line 20",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\patches\\migrate_supplier_portal_users.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function add_portal_users in erpnext/erpnext\\buying\\doctype\\supplier\\patches\\migrate_supplier_portal_users.py at line 40",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier\\patches\\migrate_supplier_portal_users.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_list_context in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py at line 225",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function make_purchase_order in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py at line 243",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function make_purchase_invoice in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py at line 297",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function make_quotation in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py at line 318",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function set_expired_status in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py at line 341",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_purchased_items in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py at line 353",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function before_validate in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py at line 111",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py at line 115",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function on_submit in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py at line 130",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function on_cancel in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py at line 134",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function on_trash in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py at line 138",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function set_has_unit_price_items in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py at line 141",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_with_previous_doc in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py at line 152",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_valid_till in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py at line 167",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_rfq_supplier_status in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py at line 171",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function set_missing_values in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py at line 249",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_item in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py at line 254",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function select_item in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py at line 257",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_data in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation_dashboard.py at line 4",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\supplier_quotation_dashboard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_update_child_supplier_quotation_add_item in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py at line 16",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_update_supplier_quotation_child_rate_disallow in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py at line 37",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_update_supplier_quotation_child_remove_item in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py at line 54",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_supplier_quotation_qty in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py at line 111",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_supplier_quotation_zero_qty in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py at line 122",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_make_purchase_order in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py at line 133",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_map_purchase_order_from_zero_qty_supplier_quotation in erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py at line 154",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_quotation\\test_supplier_quotation.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_timeline_data in erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py at line 149",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function daterange in erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py at line 178",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function refresh_scorecards in erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py at line 183",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function make_all_scorecards in erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py at line 201",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_scorecard_date in erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py at line 259",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function make_default_records in erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py at line 269",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate in erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py at line 51",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function on_update in erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py at line 57",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_standings in erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py at line 62",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_criteria_weights in erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py at line 83",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function calculate_total_score in erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py at line 91",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_standing in erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py at line 129",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_data in erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard_dashboard.py at line 4",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\supplier_scorecard_dashboard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function make_supplier_scorecard in erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\test_supplier_scorecard.py at line 22",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\test_supplier_scorecard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function delete_test_scorecards in erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\test_supplier_scorecard.py at line 35",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\test_supplier_scorecard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_create_scorecard in erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\test_supplier_scorecard.py at line 10",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\test_supplier_scorecard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_criteria_weight in erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\test_supplier_scorecard.py at line 14",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard\\test_supplier_scorecard.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_criteria_list in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py at line 57",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_variables in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py at line 71",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function _get_variables in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py at line 76",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py at line 31",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_variables in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py at line 35",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_formula in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py at line 39",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\supplier_scorecard_criteria.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function delete_test_scorecards in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\test_supplier_scorecard_criteria.py at line 22",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\test_supplier_scorecard_criteria.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_variables_exist in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\test_supplier_scorecard_criteria.py at line 10",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\test_supplier_scorecard_criteria.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_formula_validate in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\test_supplier_scorecard_criteria.py at line 17",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_criteria\\test_supplier_scorecard_criteria.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function import_string_path in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py at line 122",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function make_supplier_scorecard in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py at line 130",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py at line 43",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_criteria_weights in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py at line 49",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function calculate_variables in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py at line 57",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function calculate_criteria in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py at line 66",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function calculate_score in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py at line 87",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function calculate_weighted_score in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py at line 93",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_eval_statement in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py at line 106",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_criteria_fields in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py at line 131",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function post_process in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py at line 136",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_period\\supplier_scorecard_period.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_scoring_standing in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_standing\\supplier_scorecard_standing.py at line 35",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_standing\\supplier_scorecard_standing.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_standings_list in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_standing\\supplier_scorecard_standing.py at line 42",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_standing\\supplier_scorecard_standing.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_total_workdays in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 53",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_item_workdays in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 59",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_total_cost_of_shipments in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 83",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_cost_of_delayed_shipments in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 110",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_cost_of_on_time_shipments in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 115",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_total_days_late in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 148",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_on_time_shipments in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 195",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_late_shipments in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 228",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_total_received in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 233",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_total_received_amount in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 259",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_total_received_items in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 285",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_total_rejected_amount in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 311",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_total_rejected_items in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 337",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_total_accepted_amount in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 363",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_total_accepted_items in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 389",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_total_shipments in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 415",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_ordered_qty in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 441",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_invoiced_qty in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 458",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_rfq_total_number in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 475",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_rfq_total_items in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 503",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_sq_total_number in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 530",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_sq_total_items in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 563",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_rfq_response_days in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 596",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 34",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_path_exists in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py at line 37",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_variable_exist in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\test_supplier_scorecard_variable.py at line 14",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\test_supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_path_exists in erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\test_supplier_scorecard_variable.py at line 21",
+    "file": "erpnext/erpnext\\buying\\doctype\\supplier_scorecard_variable\\test_supplier_scorecard_variable.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function execute in erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py at line 10",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_columns in erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py at line 23",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_data in erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py at line 148",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_supplier_details in erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py at line 186",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_item_details in erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py at line 197",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_purchase_order_details in erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py at line 205",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_chart_data in erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py at line 248",
+    "file": "erpnext/erpnext\\buying\\report\\item_wise_purchase_history\\item_wise_purchase_history.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function execute in erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py at line 10",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_columns in erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py at line 16",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function apply_filters_on_query in erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py at line 130",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_data in erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py at line 148",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_mapped_mr_details in erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py at line 189",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_mapped_pi_records in erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py at line 241",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_mapped_pr_records in erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py at line 259",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_po_entries in erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py at line 277",
+    "file": "erpnext/erpnext\\buying\\report\\procurement_tracker\\procurement_tracker.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function execute in erpnext/erpnext\\buying\\report\\purchase_analytics\\purchase_analytics.py at line 8",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_analytics\\purchase_analytics.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function execute in erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py at line 13",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_filters in erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py at line 32",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_data in erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py at line 41",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_received_amount in erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py at line 98",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_received_amount_data in erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py at line 105",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function prepare_data in erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py at line 134",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function prepare_chart_data in erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py at line 188",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_columns in erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py at line 198",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_analysis\\purchase_order_analysis.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function execute in erpnext/erpnext\\buying\\report\\purchase_order_trends\\purchase_order_trends.py at line 10",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_trends\\purchase_order_trends.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_chart_data in erpnext/erpnext\\buying\\report\\purchase_order_trends\\purchase_order_trends.py at line 21",
+    "file": "erpnext/erpnext\\buying\\report\\purchase_order_trends\\purchase_order_trends.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function execute in erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py at line 13",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_filters in erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py at line 28",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_data in erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py at line 37",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_conditions in erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py at line 80",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function update_qty_columns in erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py at line 98",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function prepare_data in erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py at line 104",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function prepare_chart_data in erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py at line 150",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_columns in erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py at line 181",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\requested_items_to_order_and_receive.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function setUp in erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py at line 17",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function tearDown in erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py at line 30",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_date_range in erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py at line 33",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_ordered_received_material_requests in erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py at line 40",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function setup_material_request in erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py at line 48",
+    "file": "erpnext/erpnext\\buying\\report\\requested_items_to_order_and_receive\\test_requested_items_to_order_and_receive.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function execute in erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py at line 9",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_columns in erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py at line 19",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_data in erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py at line 59",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_subcontract_orders in erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py at line 79",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_subcontract_order_supplied_item in erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py at line 95",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\subcontracted_item_to_be_received.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function make_subcontracting_receipt_against_sco in erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\test_subcontracted_item_to_be_received.py at line 77",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\test_subcontracted_item_to_be_received.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_pending_and_received_qty in erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\test_subcontracted_item_to_be_received.py at line 28",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_item_to_be_received\\test_subcontracted_item_to_be_received.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function execute in erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py at line 9",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_columns in erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py at line 19",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_data in erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py at line 48",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_order_items_to_supply in erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py at line 62",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\subcontracted_raw_materials_to_be_transferred.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function transfer_subcontracted_raw_materials in erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\test_subcontracted_raw_materials_to_be_transferred.py at line 75",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\test_subcontracted_raw_materials_to_be_transferred.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function test_pending_and_transferred_qty in erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\test_subcontracted_raw_materials_to_be_transferred.py at line 21",
+    "file": "erpnext/erpnext\\buying\\report\\subcontracted_raw_materials_to_be_transferred\\test_subcontracted_raw_materials_to_be_transferred.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function execute in erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py at line 9",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_data in erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py at line 17",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_subcontracted_orders in erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py at line 29",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_filters in erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py at line 45",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_supplied_items in erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py at line 66",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function prepare_subcontracted_data in erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py at line 98",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_subcontracted_data in erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py at line 114",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_columns in erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py at line 125",
+    "file": "erpnext/erpnext\\buying\\report\\subcontract_order_summary\\subcontract_order_summary.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function execute in erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py at line 14",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function validate_filters in erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py at line 29",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_data in erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py at line 35",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function prepare_data in erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py at line 88",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function prepare_chart_data in erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py at line 162",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_columns in erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py at line 191",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function get_message in erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py at line 286",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py",
+    "module": "buying"
+  },
+  {
+    "text": "Function set_default_supplier in erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py at line 300",
+    "file": "erpnext/erpnext\\buying\\report\\supplier_quotation_comparison\\supplier_quotation_comparison.py",
+    "module": "buying"
+  }
+]

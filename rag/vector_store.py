@@ -1,41 +1,41 @@
 import json
+import sys
+import os
 import faiss
 import numpy as np
+
+
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 from llm.ollama_embed import embed
 
-MAX_CHUNKS = 100   # only process first 100 chunks
 
-print("📦 Loading code chunks...")
+DATA_DIR = "data"
+VECTOR_DIR = "vector_db"
 
-with open("data/code_chunks.json", "r", encoding="utf-8") as f:
-    chunks = json.load(f)
+def build_index(module):
+    chunk_file = f"{DATA_DIR}/{module}_chunks.json"
 
-# Limit chunks for fast testing
-chunks = chunks[:MAX_CHUNKS]
+    with open(chunk_file, "r", encoding="utf-8") as f:
+        chunks = json.load(f)
 
-print("🔄 Generating embeddings for", len(chunks), "chunks (FAST MODE)...")
+    vectors = []
+    for chunk in chunks:
+        vectors.append(embed(chunk["text"]))
 
-vectors = []
+    vectors = np.array(vectors).astype("float32")
 
-for i, chunk in enumerate(chunks):
-    try:
-        print(f"⚙️ Embedding chunk {i+1}/{len(chunks)}")
-        vec = embed(chunk["text"])
-        vectors.append(vec)
-    except Exception as e:
-        print("❌ Embedding failed:", e)
+    index = faiss.IndexFlatL2(vectors.shape[1])
+    index.add(vectors)
 
-vectors = np.array(vectors).astype("float32")
+    os.makedirs(VECTOR_DIR, exist_ok=True)
+    faiss.write_index(index, f"{VECTOR_DIR}/{module}.index")
 
-print("📐 Vector shape:", vectors.shape)
+    print(f"✅ Vector index built for module: {module}")
 
-if len(vectors) == 0:
-    raise Exception("No embeddings generated. Check Ollama.")
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python module_vector_store.py <module>")
+        sys.exit(1)
 
-dim = vectors.shape[1]
-index = faiss.IndexFlatL2(dim)
-index.add(vectors)
-
-faiss.write_index(index, "vector_db/faiss.index")
-
-print("✅ Vector DB created with", len(vectors), "vectors (FAST MODE)")
+    build_index(sys.argv[1])

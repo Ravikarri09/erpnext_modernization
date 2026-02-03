@@ -1,26 +1,19 @@
-import json
 import faiss
+import json
 import numpy as np
 from llm.ollama_embed import embed
 
-# Load FAISS index
-index = faiss.read_index("vector_db/faiss.index")
+def search(query, module, k=5):
+    index = faiss.read_index(f"vector_db/{module}.index")
 
-with open("data/code_chunks.json", "r", encoding="utf-8") as f:
-    chunks = json.load(f)
+    with open(f"data/{module}_chunks.json", "r", encoding="utf-8") as f:
+        chunks = json.load(f)
 
-def search(query, k=5):
-    query_vec = embed(query)
-    query_vec = np.array([query_vec]).astype("float32")
-
-    distances, indices = index.search(query_vec, k)
+    qvec = np.array([embed(query)]).astype("float32")
+    _, indices = index.search(qvec, k)
 
     results = []
-    for idx in indices[0]:
-        if idx < len(chunks):
-            results.append({
-                "text": chunks[idx]["text"],
-                "file": chunks[idx]["file"]
-            })
+    for i in indices[0]:
+        results.append(chunks[i]["text"])
 
     return results

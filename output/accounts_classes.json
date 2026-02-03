@@ -1,0 +1,2002 @@
+[
+  {
+    "name": "DuplicatePartyAccountError",
+    "file": "erpnext/erpnext\\accounts\\party.py",
+    "line": 54
+  },
+  {
+    "name": "PartyTestCase",
+    "file": "erpnext/erpnext\\accounts\\test_party.py",
+    "line": 7
+  },
+  {
+    "name": "FiscalYearError",
+    "file": "erpnext/erpnext\\accounts\\utils.py",
+    "line": 47
+  },
+  {
+    "name": "PaymentEntryUnlinkError",
+    "file": "erpnext/erpnext\\accounts\\utils.py",
+    "line": 51
+  },
+  {
+    "name": "QueryPaymentLedger",
+    "file": "erpnext/erpnext\\accounts\\utils.py",
+    "line": 2144
+  },
+  {
+    "name": "ERPNextAddress",
+    "file": "erpnext/erpnext\\accounts\\custom\\address.py",
+    "line": 10
+  },
+  {
+    "name": "RootNotEditable",
+    "file": "erpnext/erpnext\\accounts\\doctype\\account\\account.py",
+    "line": 13
+  },
+  {
+    "name": "BalanceMismatchError",
+    "file": "erpnext/erpnext\\accounts\\doctype\\account\\account.py",
+    "line": 17
+  },
+  {
+    "name": "InvalidAccountMergeError",
+    "file": "erpnext/erpnext\\accounts\\doctype\\account\\account.py",
+    "line": 21
+  },
+  {
+    "name": "Account",
+    "file": "erpnext/erpnext\\accounts\\doctype\\account\\account.py",
+    "line": 25
+  },
+  {
+    "name": "TestAccount",
+    "file": "erpnext/erpnext\\accounts\\doctype\\account\\test_account.py",
+    "line": 19
+  },
+  {
+    "name": "AccountingDimension",
+    "file": "erpnext/erpnext\\accounts\\doctype\\accounting_dimension\\accounting_dimension.py",
+    "line": 20
+  },
+  {
+    "name": "TestAccountingDimension",
+    "file": "erpnext/erpnext\\accounts\\doctype\\accounting_dimension\\test_accounting_dimension.py",
+    "line": 14
+  },
+  {
+    "name": "AccountingDimensionDetail",
+    "file": "erpnext/erpnext\\accounts\\doctype\\accounting_dimension_detail\\accounting_dimension_detail.py",
+    "line": 9
+  },
+  {
+    "name": "AccountingDimensionFilter",
+    "file": "erpnext/erpnext\\accounts\\doctype\\accounting_dimension_filter\\accounting_dimension_filter.py",
+    "line": 10
+  },
+  {
+    "name": "TestAccountingDimensionFilter",
+    "file": "erpnext/erpnext\\accounts\\doctype\\accounting_dimension_filter\\test_accounting_dimension_filter.py",
+    "line": 18
+  },
+  {
+    "name": "OverlapError",
+    "file": "erpnext/erpnext\\accounts\\doctype\\accounting_period\\accounting_period.py",
+    "line": 10
+  },
+  {
+    "name": "ClosedAccountingPeriod",
+    "file": "erpnext/erpnext\\accounts\\doctype\\accounting_period\\accounting_period.py",
+    "line": 14
+  },
+  {
+    "name": "AccountingPeriod",
+    "file": "erpnext/erpnext\\accounts\\doctype\\accounting_period\\accounting_period.py",
+    "line": 18
+  },
+  {
+    "name": "TestAccountingPeriod",
+    "file": "erpnext/erpnext\\accounts\\doctype\\accounting_period\\test_accounting_period.py",
+    "line": 18
+  },
+  {
+    "name": "AccountsSettings",
+    "file": "erpnext/erpnext\\accounts\\doctype\\accounts_settings\\accounts_settings.py",
+    "line": 16
+  },
+  {
+    "name": "TestAccountsSettings",
+    "file": "erpnext/erpnext\\accounts\\doctype\\accounts_settings\\test_accounts_settings.py",
+    "line": 7
+  },
+  {
+    "name": "AccountCategory",
+    "file": "erpnext/erpnext\\accounts\\doctype\\account_category\\account_category.py",
+    "line": 13
+  },
+  {
+    "name": "IntegrationTestAccountCategory",
+    "file": "erpnext/erpnext\\accounts\\doctype\\account_category\\test_account_category.py",
+    "line": 14
+  },
+  {
+    "name": "AccountClosingBalance",
+    "file": "erpnext/erpnext\\accounts\\doctype\\account_closing_balance\\account_closing_balance.py",
+    "line": 16
+  },
+  {
+    "name": "TestAccountClosingBalance",
+    "file": "erpnext/erpnext\\accounts\\doctype\\account_closing_balance\\test_account_closing_balance.py",
+    "line": 8
+  },
+  {
+    "name": "AdvancePaymentLedgerEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\advance_payment_ledger_entry\\advance_payment_ledger_entry.py",
+    "line": 10
+  },
+  {
+    "name": "TestAdvancePaymentLedgerEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\advance_payment_ledger_entry\\test_advance_payment_ledger_entry.py",
+    "line": 20
+  },
+  {
+    "name": "AdvanceTaxesandCharges",
+    "file": "erpnext/erpnext\\accounts\\doctype\\advance_taxes_and_charges\\advance_taxes_and_charges.py",
+    "line": 9
+  },
+  {
+    "name": "AllowedDimension",
+    "file": "erpnext/erpnext\\accounts\\doctype\\allowed_dimension\\allowed_dimension.py",
+    "line": 9
+  },
+  {
+    "name": "AllowedToTransactWith",
+    "file": "erpnext/erpnext\\accounts\\doctype\\allowed_to_transact_with\\allowed_to_transact_with.py",
+    "line": 8
+  },
+  {
+    "name": "ApplicableOnAccount",
+    "file": "erpnext/erpnext\\accounts\\doctype\\applicable_on_account\\applicable_on_account.py",
+    "line": 9
+  },
+  {
+    "name": "Bank",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank\\bank.py",
+    "line": 12
+  },
+  {
+    "name": "TestBank",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank\\test_bank.py",
+    "line": 8
+  },
+  {
+    "name": "BankAccount",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_account\\bank_account.py",
+    "line": 15
+  },
+  {
+    "name": "TestBankAccount",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_account\\test_bank_account.py",
+    "line": 10
+  },
+  {
+    "name": "BankAccountSubtype",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_account_subtype\\bank_account_subtype.py",
+    "line": 8
+  },
+  {
+    "name": "TestBankAccountSubtype",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_account_subtype\\test_bank_account_subtype.py",
+    "line": 8
+  },
+  {
+    "name": "BankAccountType",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_account_type\\bank_account_type.py",
+    "line": 9
+  },
+  {
+    "name": "TestBankAccountType",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_account_type\\test_bank_account_type.py",
+    "line": 9
+  },
+  {
+    "name": "BankClearance",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_clearance\\bank_clearance.py",
+    "line": 17
+  },
+  {
+    "name": "TestBankClearance",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_clearance\\test_bank_clearance.py",
+    "line": 21
+  },
+  {
+    "name": "BankClearanceDetail",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_clearance_detail\\bank_clearance_detail.py",
+    "line": 8
+  },
+  {
+    "name": "BankGuarantee",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_guarantee\\bank_guarantee.py",
+    "line": 10
+  },
+  {
+    "name": "TestBankGuarantee",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_guarantee\\test_bank_guarantee.py",
+    "line": 8
+  },
+  {
+    "name": "BankReconciliationTool",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_reconciliation_tool\\bank_reconciliation_tool.py",
+    "line": 25
+  },
+  {
+    "name": "TestBankReconciliationTool",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_reconciliation_tool\\test_bank_reconciliation_tool.py",
+    "line": 18
+  },
+  {
+    "name": "BankStatementImport",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_statement_import\\bank_statement_import.py",
+    "line": 27
+  },
+  {
+    "name": "TestBankStatementImport",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_statement_import\\test_bank_statement_import.py",
+    "line": 12
+  },
+  {
+    "name": "AutoMatchParty",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_transaction\\auto_match_party.py",
+    "line": 7
+  },
+  {
+    "name": "AutoMatchbyAccountIBAN",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_transaction\\auto_match_party.py",
+    "line": 38
+  },
+  {
+    "name": "AutoMatchbyPartyNameDescription",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_transaction\\auto_match_party.py",
+    "line": 91
+  },
+  {
+    "name": "BankTransaction",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_transaction\\bank_transaction.py",
+    "line": 11
+  },
+  {
+    "name": "TestAutoMatchParty",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_transaction\\test_auto_match_party.py",
+    "line": 14
+  },
+  {
+    "name": "TestBankTransaction",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_transaction\\test_bank_transaction.py",
+    "line": 27
+  },
+  {
+    "name": "TestBankTransactionFees",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_transaction\\test_bank_transaction_fees.py",
+    "line": 8
+  },
+  {
+    "name": "BankTransactionMapping",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_transaction_mapping\\bank_transaction_mapping.py",
+    "line": 8
+  },
+  {
+    "name": "BankTransactionPayments",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bank_transaction_payments\\bank_transaction_payments.py",
+    "line": 8
+  },
+  {
+    "name": "BisectAccountingStatements",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bisect_accounting_statements\\bisect_accounting_statements.py",
+    "line": 16
+  },
+  {
+    "name": "TestBisectAccountingStatements",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bisect_accounting_statements\\test_bisect_accounting_statements.py",
+    "line": 8
+  },
+  {
+    "name": "BisectNodes",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bisect_nodes\\bisect_nodes.py",
+    "line": 8
+  },
+  {
+    "name": "TestBisectNodes",
+    "file": "erpnext/erpnext\\accounts\\doctype\\bisect_nodes\\test_bisect_nodes.py",
+    "line": 8
+  },
+  {
+    "name": "BudgetError",
+    "file": "erpnext/erpnext\\accounts\\doctype\\budget\\budget.py",
+    "line": 20
+  },
+  {
+    "name": "DuplicateBudgetError",
+    "file": "erpnext/erpnext\\accounts\\doctype\\budget\\budget.py",
+    "line": 24
+  },
+  {
+    "name": "Budget",
+    "file": "erpnext/erpnext\\accounts\\doctype\\budget\\budget.py",
+    "line": 28
+  },
+  {
+    "name": "TestBudget",
+    "file": "erpnext/erpnext\\accounts\\doctype\\budget\\test_budget.py",
+    "line": 21
+  },
+  {
+    "name": "BudgetAccount",
+    "file": "erpnext/erpnext\\accounts\\doctype\\budget_account\\budget_account.py",
+    "line": 8
+  },
+  {
+    "name": "BudgetDistribution",
+    "file": "erpnext/erpnext\\accounts\\doctype\\budget_distribution\\budget_distribution.py",
+    "line": 8
+  },
+  {
+    "name": "CampaignItem",
+    "file": "erpnext/erpnext\\accounts\\doctype\\campaign_item\\campaign_item.py",
+    "line": 8
+  },
+  {
+    "name": "CashierClosing",
+    "file": "erpnext/erpnext\\accounts\\doctype\\cashier_closing\\cashier_closing.py",
+    "line": 11
+  },
+  {
+    "name": "TestCashierClosing",
+    "file": "erpnext/erpnext\\accounts\\doctype\\cashier_closing\\test_cashier_closing.py",
+    "line": 8
+  },
+  {
+    "name": "CashierClosingPayments",
+    "file": "erpnext/erpnext\\accounts\\doctype\\cashier_closing_payments\\cashier_closing_payments.py",
+    "line": 8
+  },
+  {
+    "name": "ChartofAccountsImporter",
+    "file": "erpnext/erpnext\\accounts\\doctype\\chart_of_accounts_importer\\chart_of_accounts_importer.py",
+    "line": 26
+  },
+  {
+    "name": "TestChartofAccountsImporter",
+    "file": "erpnext/erpnext\\accounts\\doctype\\chart_of_accounts_importer\\test_chart_of_accounts_importer.py",
+    "line": 8
+  },
+  {
+    "name": "ChequePrintTemplate",
+    "file": "erpnext/erpnext\\accounts\\doctype\\cheque_print_template\\cheque_print_template.py",
+    "line": 10
+  },
+  {
+    "name": "TestChequePrintTemplate",
+    "file": "erpnext/erpnext\\accounts\\doctype\\cheque_print_template\\test_cheque_print_template.py",
+    "line": 8
+  },
+  {
+    "name": "ClosedDocument",
+    "file": "erpnext/erpnext\\accounts\\doctype\\closed_document\\closed_document.py",
+    "line": 8
+  },
+  {
+    "name": "CostCenter",
+    "file": "erpnext/erpnext\\accounts\\doctype\\cost_center\\cost_center.py",
+    "line": 12
+  },
+  {
+    "name": "TestCostCenter",
+    "file": "erpnext/erpnext\\accounts\\doctype\\cost_center\\test_cost_center.py",
+    "line": 9
+  },
+  {
+    "name": "MainCostCenterCantBeChild",
+    "file": "erpnext/erpnext\\accounts\\doctype\\cost_center_allocation\\cost_center_allocation.py",
+    "line": 10
+  },
+  {
+    "name": "InvalidMainCostCenter",
+    "file": "erpnext/erpnext\\accounts\\doctype\\cost_center_allocation\\cost_center_allocation.py",
+    "line": 14
+  },
+  {
+    "name": "InvalidChildCostCenter",
+    "file": "erpnext/erpnext\\accounts\\doctype\\cost_center_allocation\\cost_center_allocation.py",
+    "line": 18
+  },
+  {
+    "name": "WrongPercentageAllocation",
+    "file": "erpnext/erpnext\\accounts\\doctype\\cost_center_allocation\\cost_center_allocation.py",
+    "line": 22
+  },
+  {
+    "name": "InvalidDateError",
+    "file": "erpnext/erpnext\\accounts\\doctype\\cost_center_allocation\\cost_center_allocation.py",
+    "line": 26
+  },
+  {
+    "name": "CostCenterAllocation",
+    "file": "erpnext/erpnext\\accounts\\doctype\\cost_center_allocation\\cost_center_allocation.py",
+    "line": 30
+  },
+  {
+    "name": "TestCostCenterAllocation",
+    "file": "erpnext/erpnext\\accounts\\doctype\\cost_center_allocation\\test_cost_center_allocation.py",
+    "line": 21
+  },
+  {
+    "name": "CostCenterAllocationPercentage",
+    "file": "erpnext/erpnext\\accounts\\doctype\\cost_center_allocation_percentage\\cost_center_allocation_percentage.py",
+    "line": 8
+  },
+  {
+    "name": "CouponCode",
+    "file": "erpnext/erpnext\\accounts\\doctype\\coupon_code\\coupon_code.py",
+    "line": 11
+  },
+  {
+    "name": "TestCouponCode",
+    "file": "erpnext/erpnext\\accounts\\doctype\\coupon_code\\test_coupon_code.py",
+    "line": 113
+  },
+  {
+    "name": "CurrencyExchangeSettings",
+    "file": "erpnext/erpnext\\accounts\\doctype\\currency_exchange_settings\\currency_exchange_settings.py",
+    "line": 11
+  },
+  {
+    "name": "TestCurrencyExchangeSettings",
+    "file": "erpnext/erpnext\\accounts\\doctype\\currency_exchange_settings\\test_currency_exchange_settings.py",
+    "line": 9
+  },
+  {
+    "name": "CurrencyExchangeSettingsDetails",
+    "file": "erpnext/erpnext\\accounts\\doctype\\currency_exchange_settings_details\\currency_exchange_settings_details.py",
+    "line": 8
+  },
+  {
+    "name": "CurrencyExchangeSettingsResult",
+    "file": "erpnext/erpnext\\accounts\\doctype\\currency_exchange_settings_result\\currency_exchange_settings_result.py",
+    "line": 8
+  },
+  {
+    "name": "CustomerGroupItem",
+    "file": "erpnext/erpnext\\accounts\\doctype\\customer_group_item\\customer_group_item.py",
+    "line": 8
+  },
+  {
+    "name": "CustomerItem",
+    "file": "erpnext/erpnext\\accounts\\doctype\\customer_item\\customer_item.py",
+    "line": 8
+  },
+  {
+    "name": "DiscountedInvoice",
+    "file": "erpnext/erpnext\\accounts\\doctype\\discounted_invoice\\discounted_invoice.py",
+    "line": 9
+  },
+  {
+    "name": "Dunning",
+    "file": "erpnext/erpnext\\accounts\\doctype\\dunning\\dunning.py",
+    "line": 25
+  },
+  {
+    "name": "TestDunning",
+    "file": "erpnext/erpnext\\accounts\\doctype\\dunning\\test_dunning.py",
+    "line": 25
+  },
+  {
+    "name": "DunningLetterText",
+    "file": "erpnext/erpnext\\accounts\\doctype\\dunning_letter_text\\dunning_letter_text.py",
+    "line": 9
+  },
+  {
+    "name": "DunningType",
+    "file": "erpnext/erpnext\\accounts\\doctype\\dunning_type\\dunning_type.py",
+    "line": 9
+  },
+  {
+    "name": "TestDunningType",
+    "file": "erpnext/erpnext\\accounts\\doctype\\dunning_type\\test_dunning_type.py",
+    "line": 9
+  },
+  {
+    "name": "ExchangeRateRevaluation",
+    "file": "erpnext/erpnext\\accounts\\doctype\\exchange_rate_revaluation\\exchange_rate_revaluation.py",
+    "line": 19
+  },
+  {
+    "name": "TestExchangeRateRevaluation",
+    "file": "erpnext/erpnext\\accounts\\doctype\\exchange_rate_revaluation\\test_exchange_rate_revaluation.py",
+    "line": 16
+  },
+  {
+    "name": "ExchangeRateRevaluationAccount",
+    "file": "erpnext/erpnext\\accounts\\doctype\\exchange_rate_revaluation_account\\exchange_rate_revaluation_account.py",
+    "line": 8
+  },
+  {
+    "name": "FinanceBook",
+    "file": "erpnext/erpnext\\accounts\\doctype\\finance_book\\finance_book.py",
+    "line": 8
+  },
+  {
+    "name": "TestFinanceBook",
+    "file": "erpnext/erpnext\\accounts\\doctype\\finance_book\\test_finance_book.py",
+    "line": 11
+  },
+  {
+    "name": "FinancialReportRow",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_row\\financial_report_row.py",
+    "line": 8
+  },
+  {
+    "name": "PeriodValue",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 47
+  },
+  {
+    "name": "AccountData",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 71
+  },
+  {
+    "name": "RowData",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 124
+  },
+  {
+    "name": "SegmentData",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 135
+  },
+  {
+    "name": "SectionData",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 148
+  },
+  {
+    "name": "ReportContext",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 161
+  },
+  {
+    "name": "FormattingRule",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 185
+  },
+  {
+    "name": "FinancialReportEngine",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 206
+  },
+  {
+    "name": "DataCollector",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 326
+  },
+  {
+    "name": "FinancialQueryBuilder",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 459
+  },
+  {
+    "name": "FilterExpressionParser",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 747
+  },
+  {
+    "name": "FormulaFieldExtractor",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 858
+  },
+  {
+    "name": "FormulaFieldUpdater",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 907
+  },
+  {
+    "name": "RowProcessor",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 1071
+  },
+  {
+    "name": "DependencyResolver",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 1165
+  },
+  {
+    "name": "FormulaCalculator",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 1249
+  },
+  {
+    "name": "DataFormatter",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 1323
+  },
+  {
+    "name": "FormattingEngine",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 1384
+  },
+  {
+    "name": "SegmentOrganizer",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 1435
+  },
+  {
+    "name": "RowFormatterBase",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 1561
+  },
+  {
+    "name": "SingleSegmentFormatter",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 1622
+  },
+  {
+    "name": "MultiSegmentFormatter",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 1644
+  },
+  {
+    "name": "DetailRowBuilder",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 1697
+  },
+  {
+    "name": "ChartDataGenerator",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 1755
+  },
+  {
+    "name": "GrowthViewTransformer",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_engine.py",
+    "line": 1809
+  },
+  {
+    "name": "FinancialReportTemplate",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_template.py",
+    "line": 15
+  },
+  {
+    "name": "ValidationIssue",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_validation.py",
+    "line": 19
+  },
+  {
+    "name": "ValidationResult",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_validation.py",
+    "line": 39
+  },
+  {
+    "name": "TemplateValidator",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_validation.py",
+    "line": 83
+  },
+  {
+    "name": "Validator",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_validation.py",
+    "line": 109
+  },
+  {
+    "name": "TemplateStructureValidator",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_validation.py",
+    "line": 115
+  },
+  {
+    "name": "DependencyValidator",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_validation.py",
+    "line": 181
+  },
+  {
+    "name": "CalculationFormulaValidator",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_validation.py",
+    "line": 276
+  },
+  {
+    "name": "AccountFilterValidator",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_validation.py",
+    "line": 382
+  },
+  {
+    "name": "FormulaValidator",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\financial_report_validation.py",
+    "line": 472
+  },
+  {
+    "name": "TestDependencyResolver",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\test_financial_report_engine.py",
+    "line": 28
+  },
+  {
+    "name": "TestFormulaCalculator",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\test_financial_report_engine.py",
+    "line": 793
+  },
+  {
+    "name": "TestFilterExpressionParser",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\test_financial_report_engine.py",
+    "line": 1292
+  },
+  {
+    "name": "MockReportRow",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\test_financial_report_engine.py",
+    "line": 797
+  },
+  {
+    "name": "MockReportRow",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\test_financial_report_engine.py",
+    "line": 1296
+  },
+  {
+    "name": "TestFinancialReportTemplate",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\test_financial_report_template.py",
+    "line": 15
+  },
+  {
+    "name": "FinancialReportTemplateTestCase",
+    "file": "erpnext/erpnext\\accounts\\doctype\\financial_report_template\\test_financial_report_template.py",
+    "line": 19
+  },
+  {
+    "name": "FiscalYear",
+    "file": "erpnext/erpnext\\accounts\\doctype\\fiscal_year\\fiscal_year.py",
+    "line": 12
+  },
+  {
+    "name": "TestFiscalYear",
+    "file": "erpnext/erpnext\\accounts\\doctype\\fiscal_year\\test_fiscal_year.py",
+    "line": 12
+  },
+  {
+    "name": "FiscalYearCompany",
+    "file": "erpnext/erpnext\\accounts\\doctype\\fiscal_year_company\\fiscal_year_company.py",
+    "line": 8
+  },
+  {
+    "name": "GLEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\gl_entry\\gl_entry.py",
+    "line": 28
+  },
+  {
+    "name": "TestGLEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\gl_entry\\test_gl_entry.py",
+    "line": 13
+  },
+  {
+    "name": "InvoiceDiscounting",
+    "file": "erpnext/erpnext\\accounts\\doctype\\invoice_discounting\\invoice_discounting.py",
+    "line": 19
+  },
+  {
+    "name": "TestInvoiceDiscounting",
+    "file": "erpnext/erpnext\\accounts\\doctype\\invoice_discounting\\test_invoice_discounting.py",
+    "line": 15
+  },
+  {
+    "name": "ItemTaxTemplate",
+    "file": "erpnext/erpnext\\accounts\\doctype\\item_tax_template\\item_tax_template.py",
+    "line": 10
+  },
+  {
+    "name": "TestItemTaxTemplate",
+    "file": "erpnext/erpnext\\accounts\\doctype\\item_tax_template\\test_item_tax_template.py",
+    "line": 8
+  },
+  {
+    "name": "ItemTaxTemplateDetail",
+    "file": "erpnext/erpnext\\accounts\\doctype\\item_tax_template_detail\\item_tax_template_detail.py",
+    "line": 8
+  },
+  {
+    "name": "ItemWiseTaxDetail",
+    "file": "erpnext/erpnext\\accounts\\doctype\\item_wise_tax_detail\\item_wise_tax_detail.py",
+    "line": 8
+  },
+  {
+    "name": "StockAccountInvalidTransaction",
+    "file": "erpnext/erpnext\\accounts\\doctype\\journal_entry\\journal_entry.py",
+    "line": 38
+  },
+  {
+    "name": "JournalEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\journal_entry\\journal_entry.py",
+    "line": 42
+  },
+  {
+    "name": "TestJournalEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\journal_entry\\test_journal_entry.py",
+    "line": 14
+  },
+  {
+    "name": "JournalEntryAccount",
+    "file": "erpnext/erpnext\\accounts\\doctype\\journal_entry_account\\journal_entry_account.py",
+    "line": 8
+  },
+  {
+    "name": "JournalEntryTemplate",
+    "file": "erpnext/erpnext\\accounts\\doctype\\journal_entry_template\\journal_entry_template.py",
+    "line": 9
+  },
+  {
+    "name": "TestJournalEntryTemplate",
+    "file": "erpnext/erpnext\\accounts\\doctype\\journal_entry_template\\test_journal_entry_template.py",
+    "line": 9
+  },
+  {
+    "name": "JournalEntryTemplateAccount",
+    "file": "erpnext/erpnext\\accounts\\doctype\\journal_entry_template_account\\journal_entry_template_account.py",
+    "line": 9
+  },
+  {
+    "name": "LedgerHealth",
+    "file": "erpnext/erpnext\\accounts\\doctype\\ledger_health\\ledger_health.py",
+    "line": 8
+  },
+  {
+    "name": "TestLedgerHealth",
+    "file": "erpnext/erpnext\\accounts\\doctype\\ledger_health\\test_ledger_health.py",
+    "line": 13
+  },
+  {
+    "name": "LedgerHealthMonitor",
+    "file": "erpnext/erpnext\\accounts\\doctype\\ledger_health_monitor\\ledger_health_monitor.py",
+    "line": 8
+  },
+  {
+    "name": "TestLedgerHealthMonitor",
+    "file": "erpnext/erpnext\\accounts\\doctype\\ledger_health_monitor\\test_ledger_health_monitor.py",
+    "line": 8
+  },
+  {
+    "name": "LedgerHealthMonitorCompany",
+    "file": "erpnext/erpnext\\accounts\\doctype\\ledger_health_monitor_company\\ledger_health_monitor_company.py",
+    "line": 8
+  },
+  {
+    "name": "LedgerMerge",
+    "file": "erpnext/erpnext\\accounts\\doctype\\ledger_merge\\ledger_merge.py",
+    "line": 12
+  },
+  {
+    "name": "TestLedgerMerge",
+    "file": "erpnext/erpnext\\accounts\\doctype\\ledger_merge\\test_ledger_merge.py",
+    "line": 11
+  },
+  {
+    "name": "LedgerMergeAccounts",
+    "file": "erpnext/erpnext\\accounts\\doctype\\ledger_merge_accounts\\ledger_merge_accounts.py",
+    "line": 8
+  },
+  {
+    "name": "LoyaltyPointEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\loyalty_point_entry\\loyalty_point_entry.py",
+    "line": 12
+  },
+  {
+    "name": "TestLoyaltyPointEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\loyalty_point_entry\\test_loyalty_point_entry.py",
+    "line": 13
+  },
+  {
+    "name": "LoyaltyPointEntryRedemption",
+    "file": "erpnext/erpnext\\accounts\\doctype\\loyalty_point_entry_redemption\\loyalty_point_entry_redemption.py",
+    "line": 8
+  },
+  {
+    "name": "LoyaltyProgram",
+    "file": "erpnext/erpnext\\accounts\\doctype\\loyalty_program\\loyalty_program.py",
+    "line": 12
+  },
+  {
+    "name": "TestLoyaltyProgram",
+    "file": "erpnext/erpnext\\accounts\\doctype\\loyalty_program\\test_loyalty_program.py",
+    "line": 16
+  },
+  {
+    "name": "LoyaltyProgramCollection",
+    "file": "erpnext/erpnext\\accounts\\doctype\\loyalty_program_collection\\loyalty_program_collection.py",
+    "line": 8
+  },
+  {
+    "name": "ModeofPayment",
+    "file": "erpnext/erpnext\\accounts\\doctype\\mode_of_payment\\mode_of_payment.py",
+    "line": 10
+  },
+  {
+    "name": "TestModeofPayment",
+    "file": "erpnext/erpnext\\accounts\\doctype\\mode_of_payment\\test_mode_of_payment.py",
+    "line": 9
+  },
+  {
+    "name": "ModeofPaymentAccount",
+    "file": "erpnext/erpnext\\accounts\\doctype\\mode_of_payment_account\\mode_of_payment_account.py",
+    "line": 8
+  },
+  {
+    "name": "MonthlyDistribution",
+    "file": "erpnext/erpnext\\accounts\\doctype\\monthly_distribution\\monthly_distribution.py",
+    "line": 11
+  },
+  {
+    "name": "TestMonthlyDistribution",
+    "file": "erpnext/erpnext\\accounts\\doctype\\monthly_distribution\\test_monthly_distribution.py",
+    "line": 9
+  },
+  {
+    "name": "MonthlyDistributionPercentage",
+    "file": "erpnext/erpnext\\accounts\\doctype\\monthly_distribution_percentage\\monthly_distribution_percentage.py",
+    "line": 8
+  },
+  {
+    "name": "OpeningInvoiceCreationTool",
+    "file": "erpnext/erpnext\\accounts\\doctype\\opening_invoice_creation_tool\\opening_invoice_creation_tool.py",
+    "line": 17
+  },
+  {
+    "name": "TestOpeningInvoiceCreationTool",
+    "file": "erpnext/erpnext\\accounts\\doctype\\opening_invoice_creation_tool\\test_opening_invoice_creation_tool.py",
+    "line": 18
+  },
+  {
+    "name": "OpeningInvoiceCreationToolItem",
+    "file": "erpnext/erpnext\\accounts\\doctype\\opening_invoice_creation_tool_item\\opening_invoice_creation_tool_item.py",
+    "line": 8
+  },
+  {
+    "name": "OverduePayment",
+    "file": "erpnext/erpnext\\accounts\\doctype\\overdue_payment\\overdue_payment.py",
+    "line": 8
+  },
+  {
+    "name": "PartyAccount",
+    "file": "erpnext/erpnext\\accounts\\doctype\\party_account\\party_account.py",
+    "line": 8
+  },
+  {
+    "name": "PartyLink",
+    "file": "erpnext/erpnext\\accounts\\doctype\\party_link\\party_link.py",
+    "line": 9
+  },
+  {
+    "name": "TestPartyLink",
+    "file": "erpnext/erpnext\\accounts\\doctype\\party_link\\test_party_link.py",
+    "line": 9
+  },
+  {
+    "name": "InvalidPaymentEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_entry\\payment_entry.py",
+    "line": 59
+  },
+  {
+    "name": "PaymentEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_entry\\payment_entry.py",
+    "line": 63
+  },
+  {
+    "name": "TestPaymentEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_entry\\test_payment_entry.py",
+    "line": 31
+  },
+  {
+    "name": "PaymentEntryDeduction",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_entry_deduction\\payment_entry_deduction.py",
+    "line": 8
+  },
+  {
+    "name": "PaymentEntryReference",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_entry_reference\\payment_entry_reference.py",
+    "line": 8
+  },
+  {
+    "name": "PaymentGatewayAccount",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_gateway_account\\payment_gateway_account.py",
+    "line": 9
+  },
+  {
+    "name": "TestPaymentGatewayAccount",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_gateway_account\\test_payment_gateway_account.py",
+    "line": 10
+  },
+  {
+    "name": "PaymentLedgerEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_ledger_entry\\payment_ledger_entry.py",
+    "line": 23
+  },
+  {
+    "name": "TestPaymentLedgerEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_ledger_entry\\test_payment_ledger_entry.py",
+    "line": 16
+  },
+  {
+    "name": "PaymentOrder",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_order\\payment_order.py",
+    "line": 13
+  },
+  {
+    "name": "TestPaymentOrder",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_order\\test_payment_order.py",
+    "line": 20
+  },
+  {
+    "name": "PaymentOrderReference",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_order_reference\\payment_order_reference.py",
+    "line": 8
+  },
+  {
+    "name": "PaymentReconciliation",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_reconciliation\\payment_reconciliation.py",
+    "line": 27
+  },
+  {
+    "name": "TestPaymentReconciliation",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_reconciliation\\test_payment_reconciliation.py",
+    "line": 24
+  },
+  {
+    "name": "PaymentReconciliationAllocation",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_reconciliation_allocation\\payment_reconciliation_allocation.py",
+    "line": 8
+  },
+  {
+    "name": "PaymentReconciliationInvoice",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_reconciliation_invoice\\payment_reconciliation_invoice.py",
+    "line": 8
+  },
+  {
+    "name": "PaymentReconciliationPayment",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_reconciliation_payment\\payment_reconciliation_payment.py",
+    "line": 8
+  },
+  {
+    "name": "PaymentRequest",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_request\\payment_request.py",
+    "line": 39
+  },
+  {
+    "name": "TestPaymentRequest",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_request\\test_payment_request.py",
+    "line": 65
+  },
+  {
+    "name": "PaymentSchedule",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_schedule\\payment_schedule.py",
+    "line": 8
+  },
+  {
+    "name": "PaymentTerm",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_term\\payment_term.py",
+    "line": 8
+  },
+  {
+    "name": "TestPaymentTerm",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_term\\test_payment_term.py",
+    "line": 8
+  },
+  {
+    "name": "PaymentTermsTemplate",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_terms_template\\payment_terms_template.py",
+    "line": 11
+  },
+  {
+    "name": "TestPaymentTermsTemplate",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_terms_template\\test_payment_terms_template.py",
+    "line": 9
+  },
+  {
+    "name": "PaymentTermsTemplateDetail",
+    "file": "erpnext/erpnext\\accounts\\doctype\\payment_terms_template_detail\\payment_terms_template_detail.py",
+    "line": 8
+  },
+  {
+    "name": "PeggedCurrencies",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pegged_currencies\\pegged_currencies.py",
+    "line": 8
+  },
+  {
+    "name": "UnitTestPeggedCurrencies",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pegged_currencies\\test_pegged_currencies.py",
+    "line": 14
+  },
+  {
+    "name": "IntegrationTestPeggedCurrencies",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pegged_currencies\\test_pegged_currencies.py",
+    "line": 23
+  },
+  {
+    "name": "PeggedCurrencyDetails",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pegged_currency_details\\pegged_currency_details.py",
+    "line": 8
+  },
+  {
+    "name": "PeriodClosingVoucher",
+    "file": "erpnext/erpnext\\accounts\\doctype\\period_closing_voucher\\period_closing_voucher.py",
+    "line": 22
+  },
+  {
+    "name": "TestPeriodClosingVoucher",
+    "file": "erpnext/erpnext\\accounts\\doctype\\period_closing_voucher\\test_period_closing_voucher.py",
+    "line": 15
+  },
+  {
+    "name": "POSClosingEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_closing_entry\\pos_closing_entry.py",
+    "line": 19
+  },
+  {
+    "name": "TestPOSClosingEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_closing_entry\\test_pos_closing_entry.py",
+    "line": 27
+  },
+  {
+    "name": "POSClosingEntryDetail",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_closing_entry_detail\\pos_closing_entry_detail.py",
+    "line": 8
+  },
+  {
+    "name": "POSClosingEntryTaxes",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_closing_entry_taxes\\pos_closing_entry_taxes.py",
+    "line": 8
+  },
+  {
+    "name": "POSCustomerGroup",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_customer_group\\pos_customer_group.py",
+    "line": 8
+  },
+  {
+    "name": "POSField",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_field\\pos_field.py",
+    "line": 9
+  },
+  {
+    "name": "ProductBundleStockValidationError",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_invoice\\pos_invoice.py",
+    "line": 26
+  },
+  {
+    "name": "POSInvoice",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_invoice\\pos_invoice.py",
+    "line": 30
+  },
+  {
+    "name": "TestPOSInvoice",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_invoice\\test_pos_invoice.py",
+    "line": 27
+  },
+  {
+    "name": "POSInvoiceItem",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_invoice_item\\pos_invoice_item.py",
+    "line": 9
+  },
+  {
+    "name": "POSInvoiceMergeLog",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_invoice_merge_log\\pos_invoice_merge_log.py",
+    "line": 22
+  },
+  {
+    "name": "TestPOSInvoiceMergeLog",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_invoice_merge_log\\test_pos_invoice_merge_log.py",
+    "line": 24
+  },
+  {
+    "name": "POSInvoiceReference",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_invoice_reference\\pos_invoice_reference.py",
+    "line": 9
+  },
+  {
+    "name": "POSItemGroup",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_item_group\\pos_item_group.py",
+    "line": 8
+  },
+  {
+    "name": "POSOpeningEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_opening_entry\\pos_opening_entry.py",
+    "line": 12
+  },
+  {
+    "name": "TestPOSOpeningEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_opening_entry\\test_pos_opening_entry.py",
+    "line": 14
+  },
+  {
+    "name": "POSOpeningEntryDetail",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_opening_entry_detail\\pos_opening_entry_detail.py",
+    "line": 9
+  },
+  {
+    "name": "POSPaymentMethod",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_payment_method\\pos_payment_method.py",
+    "line": 9
+  },
+  {
+    "name": "POSProfile",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_profile\\pos_profile.py",
+    "line": 16
+  },
+  {
+    "name": "TestPOSProfile",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_profile\\test_pos_profile.py",
+    "line": 17
+  },
+  {
+    "name": "POSProfileUser",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_profile_user\\pos_profile_user.py",
+    "line": 8
+  },
+  {
+    "name": "TestPOSProfileUser",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_profile_user\\test_pos_profile_user.py",
+    "line": 8
+  },
+  {
+    "name": "POSSearchFields",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_search_fields\\pos_search_fields.py",
+    "line": 9
+  },
+  {
+    "name": "POSSettings",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_settings\\pos_settings.py",
+    "line": 11
+  },
+  {
+    "name": "TestPOSSettings",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pos_settings\\test_pos_settings.py",
+    "line": 8
+  },
+  {
+    "name": "PricingRule",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pricing_rule\\pricing_rule.py",
+    "line": 20
+  },
+  {
+    "name": "TestPricingRule",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pricing_rule\\test_pricing_rule.py",
+    "line": 18
+  },
+  {
+    "name": "MultiplePricingRuleConflict",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pricing_rule\\utils.py",
+    "line": 20
+  },
+  {
+    "name": "PricingRuleBrand",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pricing_rule_brand\\pricing_rule_brand.py",
+    "line": 8
+  },
+  {
+    "name": "PricingRuleDetail",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pricing_rule_detail\\pricing_rule_detail.py",
+    "line": 8
+  },
+  {
+    "name": "PricingRuleItemCode",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pricing_rule_item_code\\pricing_rule_item_code.py",
+    "line": 8
+  },
+  {
+    "name": "PricingRuleItemGroup",
+    "file": "erpnext/erpnext\\accounts\\doctype\\pricing_rule_item_group\\pricing_rule_item_group.py",
+    "line": 8
+  },
+  {
+    "name": "ProcessDeferredAccounting",
+    "file": "erpnext/erpnext\\accounts\\doctype\\process_deferred_accounting\\process_deferred_accounting.py",
+    "line": 17
+  },
+  {
+    "name": "TestProcessDeferredAccounting",
+    "file": "erpnext/erpnext\\accounts\\doctype\\process_deferred_accounting\\test_process_deferred_accounting.py",
+    "line": 16
+  },
+  {
+    "name": "ProcessPaymentReconciliation",
+    "file": "erpnext/erpnext\\accounts\\doctype\\process_payment_reconciliation\\process_payment_reconciliation.py",
+    "line": 13
+  },
+  {
+    "name": "TestProcessPaymentReconciliation",
+    "file": "erpnext/erpnext\\accounts\\doctype\\process_payment_reconciliation\\test_process_payment_reconciliation.py",
+    "line": 8
+  },
+  {
+    "name": "ProcessPaymentReconciliationLog",
+    "file": "erpnext/erpnext\\accounts\\doctype\\process_payment_reconciliation_log\\process_payment_reconciliation_log.py",
+    "line": 8
+  },
+  {
+    "name": "TestProcessPaymentReconciliationLog",
+    "file": "erpnext/erpnext\\accounts\\doctype\\process_payment_reconciliation_log\\test_process_payment_reconciliation_log.py",
+    "line": 8
+  },
+  {
+    "name": "ProcessPaymentReconciliationLogAllocations",
+    "file": "erpnext/erpnext\\accounts\\doctype\\process_payment_reconciliation_log_allocations\\process_payment_reconciliation_log_allocations.py",
+    "line": 8
+  },
+  {
+    "name": "ProcessPeriodClosingVoucher",
+    "file": "erpnext/erpnext\\accounts\\doctype\\process_period_closing_voucher\\process_period_closing_voucher.py",
+    "line": 19
+  },
+  {
+    "name": "IntegrationTestProcessPeriodClosingVoucher",
+    "file": "erpnext/erpnext\\accounts\\doctype\\process_period_closing_voucher\\test_process_period_closing_voucher.py",
+    "line": 14
+  },
+  {
+    "name": "ProcessPeriodClosingVoucherDetail",
+    "file": "erpnext/erpnext\\accounts\\doctype\\process_period_closing_voucher_detail\\process_period_closing_voucher_detail.py",
+    "line": 8
+  },
+  {
+    "name": "ProcessStatementOfAccounts",
+    "file": "erpnext/erpnext\\accounts\\doctype\\process_statement_of_accounts\\process_statement_of_accounts.py",
+    "line": 25
+  },
+  {
+    "name": "TestProcessStatementOfAccounts",
+    "file": "erpnext/erpnext\\accounts\\doctype\\process_statement_of_accounts\\test_process_statement_of_accounts.py",
+    "line": 17
+  },
+  {
+    "name": "ProcessStatementOfAccountsCC",
+    "file": "erpnext/erpnext\\accounts\\doctype\\process_statement_of_accounts_cc\\process_statement_of_accounts_cc.py",
+    "line": 8
+  },
+  {
+    "name": "ProcessStatementOfAccountsCustomer",
+    "file": "erpnext/erpnext\\accounts\\doctype\\process_statement_of_accounts_customer\\process_statement_of_accounts_customer.py",
+    "line": 9
+  },
+  {
+    "name": "ProcessSubscription",
+    "file": "erpnext/erpnext\\accounts\\doctype\\process_subscription\\process_subscription.py",
+    "line": 11
+  },
+  {
+    "name": "TestProcessSubscription",
+    "file": "erpnext/erpnext\\accounts\\doctype\\process_subscription\\test_process_subscription.py",
+    "line": 8
+  },
+  {
+    "name": "TransactionExists",
+    "file": "erpnext/erpnext\\accounts\\doctype\\promotional_scheme\\promotional_scheme.py",
+    "line": 73
+  },
+  {
+    "name": "PromotionalScheme",
+    "file": "erpnext/erpnext\\accounts\\doctype\\promotional_scheme\\promotional_scheme.py",
+    "line": 77
+  },
+  {
+    "name": "TestPromotionalScheme",
+    "file": "erpnext/erpnext\\accounts\\doctype\\promotional_scheme\\test_promotional_scheme.py",
+    "line": 12
+  },
+  {
+    "name": "PromotionalSchemePriceDiscount",
+    "file": "erpnext/erpnext\\accounts\\doctype\\promotional_scheme_price_discount\\promotional_scheme_price_discount.py",
+    "line": 8
+  },
+  {
+    "name": "PromotionalSchemeProductDiscount",
+    "file": "erpnext/erpnext\\accounts\\doctype\\promotional_scheme_product_discount\\promotional_scheme_product_discount.py",
+    "line": 8
+  },
+  {
+    "name": "PSOACostCenter",
+    "file": "erpnext/erpnext\\accounts\\doctype\\psoa_cost_center\\psoa_cost_center.py",
+    "line": 9
+  },
+  {
+    "name": "PSOAProject",
+    "file": "erpnext/erpnext\\accounts\\doctype\\psoa_project\\psoa_project.py",
+    "line": 9
+  },
+  {
+    "name": "WarehouseMissingError",
+    "file": "erpnext/erpnext\\accounts\\doctype\\purchase_invoice\\purchase_invoice.py",
+    "line": 46
+  },
+  {
+    "name": "PurchaseInvoice",
+    "file": "erpnext/erpnext\\accounts\\doctype\\purchase_invoice\\purchase_invoice.py",
+    "line": 53
+  },
+  {
+    "name": "TestPurchaseInvoice",
+    "file": "erpnext/erpnext\\accounts\\doctype\\purchase_invoice\\test_purchase_invoice.py",
+    "line": 45
+  },
+  {
+    "name": "PurchaseInvoiceAdvance",
+    "file": "erpnext/erpnext\\accounts\\doctype\\purchase_invoice_advance\\purchase_invoice_advance.py",
+    "line": 8
+  },
+  {
+    "name": "PurchaseInvoiceItem",
+    "file": "erpnext/erpnext\\accounts\\doctype\\purchase_invoice_item\\purchase_invoice_item.py",
+    "line": 8
+  },
+  {
+    "name": "PurchaseTaxesandCharges",
+    "file": "erpnext/erpnext\\accounts\\doctype\\purchase_taxes_and_charges\\purchase_taxes_and_charges.py",
+    "line": 8
+  },
+  {
+    "name": "PurchaseTaxesandChargesTemplate",
+    "file": "erpnext/erpnext\\accounts\\doctype\\purchase_taxes_and_charges_template\\purchase_taxes_and_charges_template.py",
+    "line": 13
+  },
+  {
+    "name": "TestPurchaseTaxesandChargesTemplate",
+    "file": "erpnext/erpnext\\accounts\\doctype\\purchase_taxes_and_charges_template\\test_purchase_taxes_and_charges_template.py",
+    "line": 8
+  },
+  {
+    "name": "RepostAccountingLedger",
+    "file": "erpnext/erpnext\\accounts\\doctype\\repost_accounting_ledger\\repost_accounting_ledger.py",
+    "line": 15
+  },
+  {
+    "name": "TestRepostAccountingLedger",
+    "file": "erpnext/erpnext\\accounts\\doctype\\repost_accounting_ledger\\test_repost_accounting_ledger.py",
+    "line": 19
+  },
+  {
+    "name": "RepostAccountingLedgerItems",
+    "file": "erpnext/erpnext\\accounts\\doctype\\repost_accounting_ledger_items\\repost_accounting_ledger_items.py",
+    "line": 8
+  },
+  {
+    "name": "RepostAccountingLedgerSettings",
+    "file": "erpnext/erpnext\\accounts\\doctype\\repost_accounting_ledger_settings\\repost_accounting_ledger_settings.py",
+    "line": 13
+  },
+  {
+    "name": "TestRepostAccountingLedgerSettings",
+    "file": "erpnext/erpnext\\accounts\\doctype\\repost_accounting_ledger_settings\\test_repost_accounting_ledger_settings.py",
+    "line": 8
+  },
+  {
+    "name": "RepostAllowedTypes",
+    "file": "erpnext/erpnext\\accounts\\doctype\\repost_allowed_types\\repost_allowed_types.py",
+    "line": 8
+  },
+  {
+    "name": "RepostPaymentLedger",
+    "file": "erpnext/erpnext\\accounts\\doctype\\repost_payment_ledger\\repost_payment_ledger.py",
+    "line": 55
+  },
+  {
+    "name": "TestRepostPaymentLedger",
+    "file": "erpnext/erpnext\\accounts\\doctype\\repost_payment_ledger\\test_repost_payment_ledger.py",
+    "line": 8
+  },
+  {
+    "name": "RepostPaymentLedgerItems",
+    "file": "erpnext/erpnext\\accounts\\doctype\\repost_payment_ledger_items\\repost_payment_ledger_items.py",
+    "line": 8
+  },
+  {
+    "name": "PartialPaymentValidationError",
+    "file": "erpnext/erpnext\\accounts\\doctype\\sales_invoice\\sales_invoice.py",
+    "line": 54
+  },
+  {
+    "name": "SalesInvoice",
+    "file": "erpnext/erpnext\\accounts\\doctype\\sales_invoice\\sales_invoice.py",
+    "line": 58
+  },
+  {
+    "name": "TestSalesInvoice",
+    "file": "erpnext/erpnext\\accounts\\doctype\\sales_invoice\\test_sales_invoice.py",
+    "line": 54
+  },
+  {
+    "name": "SalesInvoiceAdvance",
+    "file": "erpnext/erpnext\\accounts\\doctype\\sales_invoice_advance\\sales_invoice_advance.py",
+    "line": 8
+  },
+  {
+    "name": "SalesInvoiceItem",
+    "file": "erpnext/erpnext\\accounts\\doctype\\sales_invoice_item\\sales_invoice_item.py",
+    "line": 14
+  },
+  {
+    "name": "SalesInvoicePayment",
+    "file": "erpnext/erpnext\\accounts\\doctype\\sales_invoice_payment\\sales_invoice_payment.py",
+    "line": 8
+  },
+  {
+    "name": "SalesInvoiceReference",
+    "file": "erpnext/erpnext\\accounts\\doctype\\sales_invoice_reference\\sales_invoice_reference.py",
+    "line": 8
+  },
+  {
+    "name": "SalesInvoiceTimesheet",
+    "file": "erpnext/erpnext\\accounts\\doctype\\sales_invoice_timesheet\\sales_invoice_timesheet.py",
+    "line": 8
+  },
+  {
+    "name": "SalesPartnerItem",
+    "file": "erpnext/erpnext\\accounts\\doctype\\sales_partner_item\\sales_partner_item.py",
+    "line": 8
+  },
+  {
+    "name": "SalesTaxesandCharges",
+    "file": "erpnext/erpnext\\accounts\\doctype\\sales_taxes_and_charges\\sales_taxes_and_charges.py",
+    "line": 8
+  },
+  {
+    "name": "SalesTaxesandChargesTemplate",
+    "file": "erpnext/erpnext\\accounts\\doctype\\sales_taxes_and_charges_template\\sales_taxes_and_charges_template.py",
+    "line": 18
+  },
+  {
+    "name": "TestSalesTaxesandChargesTemplate",
+    "file": "erpnext/erpnext\\accounts\\doctype\\sales_taxes_and_charges_template\\test_sales_taxes_and_charges_template.py",
+    "line": 9
+  },
+  {
+    "name": "Shareholder",
+    "file": "erpnext/erpnext\\accounts\\doctype\\shareholder\\shareholder.py",
+    "line": 12
+  },
+  {
+    "name": "TestShareholder",
+    "file": "erpnext/erpnext\\accounts\\doctype\\shareholder\\test_shareholder.py",
+    "line": 8
+  },
+  {
+    "name": "ShareBalance",
+    "file": "erpnext/erpnext\\accounts\\doctype\\share_balance\\share_balance.py",
+    "line": 8
+  },
+  {
+    "name": "ShareDontExists",
+    "file": "erpnext/erpnext\\accounts\\doctype\\share_transfer\\share_transfer.py",
+    "line": 13
+  },
+  {
+    "name": "ShareTransfer",
+    "file": "erpnext/erpnext\\accounts\\doctype\\share_transfer\\share_transfer.py",
+    "line": 17
+  },
+  {
+    "name": "TestShareTransfer",
+    "file": "erpnext/erpnext\\accounts\\doctype\\share_transfer\\test_share_transfer.py",
+    "line": 13
+  },
+  {
+    "name": "ShareType",
+    "file": "erpnext/erpnext\\accounts\\doctype\\share_type\\share_type.py",
+    "line": 8
+  },
+  {
+    "name": "TestShareType",
+    "file": "erpnext/erpnext\\accounts\\doctype\\share_type\\test_share_type.py",
+    "line": 8
+  },
+  {
+    "name": "OverlappingConditionError",
+    "file": "erpnext/erpnext\\accounts\\doctype\\shipping_rule\\shipping_rule.py",
+    "line": 15
+  },
+  {
+    "name": "FromGreaterThanToError",
+    "file": "erpnext/erpnext\\accounts\\doctype\\shipping_rule\\shipping_rule.py",
+    "line": 19
+  },
+  {
+    "name": "ManyBlankToValuesError",
+    "file": "erpnext/erpnext\\accounts\\doctype\\shipping_rule\\shipping_rule.py",
+    "line": 23
+  },
+  {
+    "name": "ShippingRule",
+    "file": "erpnext/erpnext\\accounts\\doctype\\shipping_rule\\shipping_rule.py",
+    "line": 27
+  },
+  {
+    "name": "TestShippingRule",
+    "file": "erpnext/erpnext\\accounts\\doctype\\shipping_rule\\test_shipping_rule.py",
+    "line": 15
+  },
+  {
+    "name": "ShippingRuleCondition",
+    "file": "erpnext/erpnext\\accounts\\doctype\\shipping_rule_condition\\shipping_rule_condition.py",
+    "line": 10
+  },
+  {
+    "name": "ShippingRuleCountry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\shipping_rule_country\\shipping_rule_country.py",
+    "line": 8
+  },
+  {
+    "name": "SouthAfricaVATAccount",
+    "file": "erpnext/erpnext\\accounts\\doctype\\south_africa_vat_account\\south_africa_vat_account.py",
+    "line": 8
+  },
+  {
+    "name": "InvoiceCancelled",
+    "file": "erpnext/erpnext\\accounts\\doctype\\subscription\\subscription.py",
+    "line": 30
+  },
+  {
+    "name": "InvoiceNotCancelled",
+    "file": "erpnext/erpnext\\accounts\\doctype\\subscription\\subscription.py",
+    "line": 34
+  },
+  {
+    "name": "Subscription",
+    "file": "erpnext/erpnext\\accounts\\doctype\\subscription\\subscription.py",
+    "line": 41
+  },
+  {
+    "name": "TestSubscription",
+    "file": "erpnext/erpnext\\accounts\\doctype\\subscription\\test_subscription.py",
+    "line": 26
+  },
+  {
+    "name": "SubscriptionInvoice",
+    "file": "erpnext/erpnext\\accounts\\doctype\\subscription_invoice\\subscription_invoice.py",
+    "line": 8
+  },
+  {
+    "name": "TestSubscriptionInvoice",
+    "file": "erpnext/erpnext\\accounts\\doctype\\subscription_invoice\\test_subscription_invoice.py",
+    "line": 8
+  },
+  {
+    "name": "SubscriptionPlan",
+    "file": "erpnext/erpnext\\accounts\\doctype\\subscription_plan\\subscription_plan.py",
+    "line": 14
+  },
+  {
+    "name": "TestSubscriptionPlan",
+    "file": "erpnext/erpnext\\accounts\\doctype\\subscription_plan\\test_subscription_plan.py",
+    "line": 8
+  },
+  {
+    "name": "SubscriptionPlanDetail",
+    "file": "erpnext/erpnext\\accounts\\doctype\\subscription_plan_detail\\subscription_plan_detail.py",
+    "line": 8
+  },
+  {
+    "name": "SubscriptionSettings",
+    "file": "erpnext/erpnext\\accounts\\doctype\\subscription_settings\\subscription_settings.py",
+    "line": 8
+  },
+  {
+    "name": "TestSubscriptionSettings",
+    "file": "erpnext/erpnext\\accounts\\doctype\\subscription_settings\\test_subscription_settings.py",
+    "line": 8
+  },
+  {
+    "name": "SupplierGroupItem",
+    "file": "erpnext/erpnext\\accounts\\doctype\\supplier_group_item\\supplier_group_item.py",
+    "line": 8
+  },
+  {
+    "name": "SupplierItem",
+    "file": "erpnext/erpnext\\accounts\\doctype\\supplier_item\\supplier_item.py",
+    "line": 8
+  },
+  {
+    "name": "TaxCategory",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_category\\tax_category.py",
+    "line": 8
+  },
+  {
+    "name": "TestTaxCategory",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_category\\test_tax_category.py",
+    "line": 8
+  },
+  {
+    "name": "IncorrectCustomerGroup",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_rule\\tax_rule.py",
+    "line": 17
+  },
+  {
+    "name": "IncorrectSupplierType",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_rule\\tax_rule.py",
+    "line": 21
+  },
+  {
+    "name": "ConflictingTaxRule",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_rule\\tax_rule.py",
+    "line": 25
+  },
+  {
+    "name": "TaxRule",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_rule\\tax_rule.py",
+    "line": 29
+  },
+  {
+    "name": "TestTaxRule",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_rule\\test_tax_rule.py",
+    "line": 13
+  },
+  {
+    "name": "TaxWithholdingAccount",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_withholding_account\\tax_withholding_account.py",
+    "line": 8
+  },
+  {
+    "name": "TaxWithholdingCategory",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_withholding_category\\tax_withholding_category.py",
+    "line": 16
+  },
+  {
+    "name": "TaxWithholdingDetails",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_withholding_category\\tax_withholding_category.py",
+    "line": 115
+  },
+  {
+    "name": "TestTaxWithholdingCategory",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_withholding_category\\test_tax_withholding_category.py",
+    "line": 18
+  },
+  {
+    "name": "TaxWithholdingEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_withholding_entry\\tax_withholding_entry.py",
+    "line": 19
+  },
+  {
+    "name": "TaxWithholdingController",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_withholding_entry\\tax_withholding_entry.py",
+    "line": 351
+  },
+  {
+    "name": "PurchaseTaxWithholding",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_withholding_entry\\tax_withholding_entry.py",
+    "line": 1116
+  },
+  {
+    "name": "SalesTaxWithholding",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_withholding_entry\\tax_withholding_entry.py",
+    "line": 1125
+  },
+  {
+    "name": "PaymentTaxWithholding",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_withholding_entry\\tax_withholding_entry.py",
+    "line": 1134
+  },
+  {
+    "name": "JournalTaxWithholding",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_withholding_entry\\tax_withholding_entry.py",
+    "line": 1199
+  },
+  {
+    "name": "IntegrationTestTaxWithholdingEntry",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_withholding_entry\\test_tax_withholding_entry.py",
+    "line": 14
+  },
+  {
+    "name": "TaxWithholdingGroup",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_withholding_group\\tax_withholding_group.py",
+    "line": 8
+  },
+  {
+    "name": "IntegrationTestTaxWithholdingGroup",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_withholding_group\\test_tax_withholding_group.py",
+    "line": 14
+  },
+  {
+    "name": "TaxWithholdingRate",
+    "file": "erpnext/erpnext\\accounts\\doctype\\tax_withholding_rate\\tax_withholding_rate.py",
+    "line": 8
+  },
+  {
+    "name": "TerritoryItem",
+    "file": "erpnext/erpnext\\accounts\\doctype\\territory_item\\territory_item.py",
+    "line": 8
+  },
+  {
+    "name": "TransactionDeletionRecordDetails",
+    "file": "erpnext/erpnext\\accounts\\doctype\\transaction_deletion_record_details\\transaction_deletion_record_details.py",
+    "line": 8
+  },
+  {
+    "name": "TestUnreconcilePayment",
+    "file": "erpnext/erpnext\\accounts\\doctype\\unreconcile_payment\\test_unreconcile_payment.py",
+    "line": 17
+  },
+  {
+    "name": "UnreconcilePayment",
+    "file": "erpnext/erpnext\\accounts\\doctype\\unreconcile_payment\\unreconcile_payment.py",
+    "line": 20
+  },
+  {
+    "name": "UnreconcilePaymentEntries",
+    "file": "erpnext/erpnext\\accounts\\doctype\\unreconcile_payment_entries\\unreconcile_payment_entries.py",
+    "line": 8
+  },
+  {
+    "name": "TestAccountsPayable",
+    "file": "erpnext/erpnext\\accounts\\report\\accounts_payable\\test_accounts_payable.py",
+    "line": 10
+  },
+  {
+    "name": "ReceivablePayableReport",
+    "file": "erpnext/erpnext\\accounts\\report\\accounts_receivable\\accounts_receivable.py",
+    "line": 50
+  },
+  {
+    "name": "InitSQLProceduresForAR",
+    "file": "erpnext/erpnext\\accounts\\report\\accounts_receivable\\accounts_receivable.py",
+    "line": 1341
+  },
+  {
+    "name": "TestAccountsReceivable",
+    "file": "erpnext/erpnext\\accounts\\report\\accounts_receivable\\test_accounts_receivable.py",
+    "line": 13
+  },
+  {
+    "name": "AccountsReceivableSummary",
+    "file": "erpnext/erpnext\\accounts\\report\\accounts_receivable_summary\\accounts_receivable_summary.py",
+    "line": 23
+  },
+  {
+    "name": "TestAccountsReceivable",
+    "file": "erpnext/erpnext\\accounts\\report\\accounts_receivable_summary\\test_accounts_receivable_summary.py",
+    "line": 11
+  },
+  {
+    "name": "TestAccountBalance",
+    "file": "erpnext/erpnext\\accounts\\report\\account_balance\\test_account_balance.py",
+    "line": 11
+  },
+  {
+    "name": "TestBalanceSheet",
+    "file": "erpnext/erpnext\\accounts\\report\\balance_sheet\\test_balance_sheet.py",
+    "line": 16
+  },
+  {
+    "name": "TestBankReconciliationStatement",
+    "file": "erpnext/erpnext\\accounts\\report\\bank_reconciliation_statement\\test_bank_reconciliation_statement.py",
+    "line": 13
+  },
+  {
+    "name": "ForeignCurrencyTranslationReserveNotFoundError",
+    "file": "erpnext/erpnext\\accounts\\report\\consolidated_trial_balance\\test_consolidated_trial_balance.py",
+    "line": 13
+  },
+  {
+    "name": "TestConsolidatedTrialBalance",
+    "file": "erpnext/erpnext\\accounts\\report\\consolidated_trial_balance\\test_consolidated_trial_balance.py",
+    "line": 17
+  },
+  {
+    "name": "PartyLedgerSummaryReport",
+    "file": "erpnext/erpnext\\accounts\\report\\customer_ledger_summary\\customer_ledger_summary.py",
+    "line": 23
+  },
+  {
+    "name": "TestCustomerLedgerSummary",
+    "file": "erpnext/erpnext\\accounts\\report\\customer_ledger_summary\\test_customer_ledger_summary.py",
+    "line": 13
+  },
+  {
+    "name": "Deferred_Item",
+    "file": "erpnext/erpnext\\accounts\\report\\deferred_revenue_and_expense\\deferred_revenue_and_expense.py",
+    "line": 13
+  },
+  {
+    "name": "Deferred_Invoice",
+    "file": "erpnext/erpnext\\accounts\\report\\deferred_revenue_and_expense\\deferred_revenue_and_expense.py",
+    "line": 183
+  },
+  {
+    "name": "Deferred_Revenue_and_Expense_Report",
+    "file": "erpnext/erpnext\\accounts\\report\\deferred_revenue_and_expense\\deferred_revenue_and_expense.py",
+    "line": 244
+  },
+  {
+    "name": "TestDeferredRevenueAndExpense",
+    "file": "erpnext/erpnext\\accounts\\report\\deferred_revenue_and_expense\\test_deferred_revenue_and_expense.py",
+    "line": 16
+  },
+  {
+    "name": "General_Payment_Ledger_Comparison",
+    "file": "erpnext/erpnext\\accounts\\report\\general_and_payment_ledger_comparison\\general_and_payment_ledger_comparison.py",
+    "line": 10
+  },
+  {
+    "name": "TestGeneralAndPaymentLedger",
+    "file": "erpnext/erpnext\\accounts\\report\\general_and_payment_ledger_comparison\\test_general_and_payment_ledger_comparison.py",
+    "line": 13
+  },
+  {
+    "name": "TestGeneralLedger",
+    "file": "erpnext/erpnext\\accounts\\report\\general_ledger\\test_general_ledger.py",
+    "line": 14
+  },
+  {
+    "name": "GrossProfitGenerator",
+    "file": "erpnext/erpnext\\accounts\\report\\gross_profit\\gross_profit.py",
+    "line": 493
+  },
+  {
+    "name": "TestGrossProfit",
+    "file": "erpnext/erpnext\\accounts\\report\\gross_profit\\test_gross_profit.py",
+    "line": 15
+  },
+  {
+    "name": "TestItemWisePurchaseRegister",
+    "file": "erpnext/erpnext\\accounts\\report\\item_wise_purchase_register\\test_item_wise_purchase_register.py",
+    "line": 10
+  },
+  {
+    "name": "TestItemWiseSalesRegister",
+    "file": "erpnext/erpnext\\accounts\\report\\item_wise_sales_register\\test_item_wise_sales_register.py",
+    "line": 10
+  },
+  {
+    "name": "PaymentLedger",
+    "file": "erpnext/erpnext\\accounts\\report\\payment_ledger\\payment_ledger.py",
+    "line": 11
+  },
+  {
+    "name": "TestPaymentLedger",
+    "file": "erpnext/erpnext\\accounts\\report\\payment_ledger\\test_payment_ledger.py",
+    "line": 10
+  },
+  {
+    "name": "TestProfitAndLossStatement",
+    "file": "erpnext/erpnext\\accounts\\report\\profit_and_loss_statement\\test_profit_and_loss_statement.py",
+    "line": 15
+  },
+  {
+    "name": "TestPurchaseRegister",
+    "file": "erpnext/erpnext\\accounts\\report\\purchase_register\\test_purchase_register.py",
+    "line": 11
+  },
+  {
+    "name": "TestSalesPaymentSummary",
+    "file": "erpnext/erpnext\\accounts\\report\\sales_payment_summary\\test_sales_payment_summary.py",
+    "line": 18
+  },
+  {
+    "name": "TestItemWiseSalesRegister",
+    "file": "erpnext/erpnext\\accounts\\report\\sales_register\\test_sales_register.py",
+    "line": 10
+  },
+  {
+    "name": "TestSupplierLedgerSummary",
+    "file": "erpnext/erpnext\\accounts\\report\\supplier_ledger_summary\\test_supplier_ledger_summary.py",
+    "line": 10
+  },
+  {
+    "name": "TestTaxWithholdingDetails",
+    "file": "erpnext/erpnext\\accounts\\report\\tax_withholding_details\\test_tax_withholding_details.py",
+    "line": 19
+  },
+  {
+    "name": "TestTrialBalance",
+    "file": "erpnext/erpnext\\accounts\\report\\trial_balance\\test_trial_balance.py",
+    "line": 11
+  },
+  {
+    "name": "AccountsTestMixin",
+    "file": "erpnext/erpnext\\accounts\\test\\accounts_mixin.py",
+    "line": 7
+  },
+  {
+    "name": "TestReports",
+    "file": "erpnext/erpnext\\accounts\\test\\test_reports.py",
+    "line": 39
+  },
+  {
+    "name": "TestUtils",
+    "file": "erpnext/erpnext\\accounts\\test\\test_utils.py",
+    "line": 21
+  }
+]
