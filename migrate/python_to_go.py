@@ -1,13 +1,11 @@
 import os
+from pathlib import Path
 import sys
 
-sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+# Ensure project root is on path
+sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 from llm.safe_generate import safe_generate
-
-from llm.safe_generate import safe_generate
-
-OUTPUT_DIR = "migrations"
 
 
 def build_prompt(py_code: str, file_path: str) -> str:
@@ -37,38 +35,58 @@ Python code:
 Output:
 - Full Go source code only
 """
+def extract_go_code(llm_output: str) -> str:
+    """
+    Extract valid Go source code from LLM output.
+    Ensures the file starts with `package`.
+    """
+    lines = llm_output.splitlines()
+
+    for i, line in enumerate(lines):
+        if line.strip().startswith("package "):
+            return "\n".join(lines[i:])
+
+    raise ValueError("❌ No valid Go code found in LLM output")
+
 
 
 def convert_python_to_go(python_file: str) -> str:
-    if not os.path.exists(python_file):
+    python_file = Path(python_file)
+
+    if not python_file.exists():
         raise FileNotFoundError(f"Python file not found: {python_file}")
 
-    with open(python_file, "r", encoding="utf-8") as f:
-        py_code = f.read()
+    py_code = python_file.read_text(encoding="utf-8")
+    prompt = build_prompt(py_code, str(python_file))
 
-    prompt = build_prompt(py_code, python_file)
-    go_code = safe_generate(prompt)
+    raw_output = safe_generate(prompt)
+    go_code = extract_go_code(raw_output)
+    if "func main()" not in go_code:
+        raise ValueError("Generated Go code missing main()")
 
     return go_code
 
 
-def save_go_file(python_file: str, go_code: str):
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-    base = os.path.basename(python_file).replace(".py", ".go")
-    out_path = os.path.join(OUTPUT_DIR, base)
+def save_go_file(python_file: str, go_code: str) -> Path:
+    """
+    Save Go file next to the Python file inside a `migrations/` folder.
+    This is REQUIRED for pytest functional tests.
+    """
+    python_file = Path(python_file)
+    out_dir = python_file.parent / "migrations"
+    out_dir.mkdir(exist_ok=True)
 
-    with open(out_path, "w", encoding="utf-8") as f:
-        f.write(go_code)
+    go_file = out_dir / (python_file.stem + ".go")
+    go_file.write_text(go_code, encoding="utf-8")
 
-    print(f"Go file generated: {out_path}")
+    print(f"Go file generated: {go_file}")
+    return go_file
 
 
 if __name__ == "__main__":
-    import sys
-
     if len(sys.argv) < 2:
-        print("Usage: python migrate/py_to_go.py <python_file>")
+        print("Usage: python migrate/python_to_go.py <python_file>")
         sys.exit(1)
 
     py_file = sys.argv[1]

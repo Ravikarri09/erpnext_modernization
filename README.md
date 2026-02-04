@@ -157,3 +157,155 @@ python app.py
 Ask:
 
 Where is tax calculated in ERPNext?
+🔹 Module-Specific RAG Training
+
+Initially, the RAG pipeline indexed the entire ERPNext codebase.
+Today, the system was extended to support module-specific training.
+
+What this means
+
+Instead of embedding everything, we can now:
+
+Train the RAG pipeline on only one ERPNext module
+
+Reduce irrelevant context
+
+Improve retrieval accuracy
+
+Speed up vector search
+
+Example
+python rag/chunker.py buying
+python rag/vector_store.py buying
+
+
+This builds embeddings only for the buying module, and the AI assistant will answer questions strictly from that module.
+
+🔹 Python → Go Migration Pipeline (AI-Based)
+
+A new AI-powered migration pipeline was added to convert Python source files into equivalent Go files.
+
+Capabilities
+
+Accepts a single Python file
+
+Uses an LLM to generate Go code
+
+Preserves logic and runtime behavior
+
+Produces a compilable .go file
+
+Example
+python migrate/python_to_go.py Analyzer/analyzer.py
+
+
+Output:
+
+Analyzer/migrations/analyzer.go
+
+🔹 Testing Strategy for Migration
+
+To ensure correctness, two levels of testing were added specifically for migration.
+
+✅ Unit Testing (Logic Validation)
+
+Unit tests verify:
+
+Prompt construction
+
+LLM output handling
+
+File generation logic
+
+These tests do not execute Go code.
+
+Location:
+
+tests/migration/test_unit_migration.py
+
+
+Run:
+
+pytest tests/migration/test_unit_migration.py
+
+✅ Functional Testing (Behavior Validation)
+
+Functional tests verify:
+
+Generated Go code compiles
+
+Go output matches Python output for the same input
+
+This ensures behavioral equivalence, not just syntax.
+
+Location:
+
+tests/migration/test_functional_migration.py
+
+
+Run:
+
+pytest tests/migration/test_functional_migration.py
+
+🔹 LLM Safety & Output Validation
+
+Because LLMs can generate imperfect code, safety checks were added to:
+
+Extract only valid Go source code
+
+Ensure required structures like package main and func main() exist
+
+Fail early with clear errors instead of crashing tests
+
+This makes the migration pipeline stable and production-ready.
+
+🔄 Updated Workflows (Additive)
+🔁 RAG Workflow (Original + Module Support)
+ERPNext Source Code
+        ↓
+Static Code Analyzer (AST)
+        ↓
+Extracted Functions & Classes (JSON)
+        ↓
+Module-Specific Chunking
+        ↓
+Embeddings (Ollama)
+        ↓
+FAISS Vector Database
+        ↓
+RAG Pipeline
+        ↓
+AI Assistant
+
+🔁 Migration Workflow (Added Today)
+Python Source File
+        ↓
+Prompt Construction
+        ↓
+LLM-Based Python → Go Conversion
+        ↓
+Go Code Extraction & Validation
+        ↓
+Go File Generation
+        ↓
+Unit Testing (Logic)
+        ↓
+Functional Testing (Compile & Output Match)
+
+📌 Current Project Capabilities (Cumulative)
+
+Static ERPNext code analysis
+
+Semantic code search
+
+RAG-based AI assistant
+
+Module-level RAG training
+
+Python → Go code migration
+
+Unit testing for migration logic
+
+Functional testing for output equivalence
+
+LLM safety and validation layers
