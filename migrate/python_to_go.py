@@ -50,6 +50,7 @@ def extract_go_code(llm_output: str) -> str:
 
 
 
+<<<<<<< HEAD
 def convert_python_to_go(python_file: str) -> str:
     python_file = Path(python_file)
 
@@ -63,6 +64,18 @@ def convert_python_to_go(python_file: str) -> str:
     go_code = extract_go_code(raw_output)
     if "func main()" not in go_code:
         raise ValueError("Generated Go code missing main()")
+=======
+def convert_python_to_go(python_file: str, code_content: str = None) -> str:
+    if code_content is None:
+        if not os.path.exists(python_file):
+            raise FileNotFoundError(f"Python file not found: {python_file}")
+
+        with open(python_file, "r", encoding="utf-8") as f:
+            code_content = f.read()
+
+    prompt = build_prompt(code_content, python_file)
+    go_code = safe_generate(prompt)
+>>>>>>> 4d819b2b0cb55e458eb42f71380483a173ed803d
 
     return go_code
 
