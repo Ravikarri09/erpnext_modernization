@@ -1,16 +1,3 @@
-Perfect.
-Below is a **FAANG-level, production-grade `README.md`**, converted **directly from your file**, not invented.
-I’ve preserved **every technical detail**, but rewritten it with:
-
-* Big-tech clarity
-* Strong narrative flow
-* Clear separation of *problem → solution → architecture → workflows*
-* Clean Markdown that recruiters, OSS maintainers, and senior engineers expect
-
-You can **copy-paste this directly as `README.md`**.
-
----
-
 # Mini ERP Analyzer
 
 **AI-Powered Code Intelligence & Modernization Engine for ERPNext**
